@@ -13,35 +13,12 @@
 body{
     margin: 0;
 }
-nav{
-    width: 100%;
-    background-color: rgb(227,6,19);
-    padding: 10px 5px 10px 15px;
-}
-
-#hamburgermenu{
-    width: 10%;
-    height: 80%;
-}
-
-#erasmushogeschool{
-    width: 85%;
-    margin: auto;
-    padding: 6px 0px;
-    float: right;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 1.3em;
-}
-
 h2{
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 1.2em;
     margin: 25px 0px;
 }
-
 p{
     font-family: 'Roboto';
     font-weight: 400;
@@ -51,7 +28,7 @@ p{
 article{
     margin: auto;
     padding: 0px 15px;
-    overflow: hidden;
+    overflow: auto;
 }
 article img{
     width: 10%;
@@ -82,11 +59,18 @@ article img{
 #tweedenoodgeval{
     background-color: rgb(204,204,204);
 }
-.iconenlijn{
-    display: inline;
-}
-.iconenlijn p{
-    width: 70%;
-    margin-right: 0px;
-}
 
+@media screen and (max-width: 370px){
+    h1{
+        font-size: 1.1em;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    .noodnummer{
+        width: 30%;
+    }
+    .kantooruren{
+        width: 50%;
+    }
+}
