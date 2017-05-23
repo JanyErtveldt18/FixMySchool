@@ -112,4 +112,8 @@ li img {
 	padding-left: 3%;
 }
 
-/* stukske commentaar */
+@media screen and (max-width: 360px) {
+	#erasmushogeschool {
+		font-size: 1em;
+	}
+}
