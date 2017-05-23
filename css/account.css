@@ -1,0 +1,45 @@
+.detailAccount{
+  height: 400px;
+}
+
+  .lijnenOnderaan{
+    height: 20px;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .lijnenOnderaan li{
+    list-style: none;
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 2%;
+  }
+  .lijnenOnderaan ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .rood{
+    width: 45%;
+    background-color: #E30512;
+  }
+  .donkerGrijs{
+    width: 30%;
+    background-color: #3C3C3B;
+  }
+  .grijs{
+    background-color: #E8E8E8;
+    width: 25%;
+  }
+  footer{
+    height: 60px;
+  }
+
+.detailAccount li{
+  
+  height: 40px;
+  border-bottom: 2px solid grey;
+  list-style: none;
+}
+
+.detailAccount li p{
+  margin: 5% 0 5% 3%;
+}
