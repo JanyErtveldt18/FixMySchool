@@ -1,0 +1,149 @@
+@media screen and (max-width:750px) {
+    @font-face {
+        font-family: Roboto;
+        src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Roboto Bold';
+        src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+    }
+    /*--------------------------------------------------*/
+    * {
+        box-sizing: border-box
+    }
+    body {
+        font-family: Roboto, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(204, 204, 204);
+        overflow: auto;
+    }
+    #tekst p {
+        font-family: Roboto;
+        font-size: 1em;
+        padding: 0 1.2em;
+        padding-top: 1em;
+        text-align: center;
+        margin: 0;
+    }
+    .Slider {
+        display: none
+    }
+    #container {
+        max-width: 20em;
+        position: relative;
+        margin: auto;
+        background-color: rgb(204, 204, 204);
+    }
+    #fotoContainer {
+        width: 20em;
+        
+        
+    }
+    #fotoContainer img {
+        margin: 0 5%;
+        width: 90%;
+        padding: 1em 0 0 0;
+    }
+    .Vorig,
+    .Volgende {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 1em;
+        margin-top: 5em;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .Volgende {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .Vorig:hover,
+    .Volgende:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    #doos {
+        margin:0 auto;
+     
+        max-width: 25em;
+        background-color: aliceblue;
+    }
+    #dots {
+        display: block;
+        box-sizing: border-box;
+        float: left;
+        margin-top: 1em;
+        padding-bottom: 0.8em;
+        margin-left: 8em;
+    }
+    #overslaan {
+        display: block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1em;
+        margin-left: 18em;
+    }
+    #overslaan a {
+        font-family: 'Roboto Bold';
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    .Aanwijzingen {
+        cursor: pointer;
+        height: 1.5em;
+        width: 1.5em;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .Aanwijzingen:hover {
+        background-color: red;
+    }
+    .active {
+        background-color: black;
+    }
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .Vorig,
+    .Volgende {
+        font-size: 11px
+    }
+}
