@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<link rel="stylesheet" href="css/navigatie.css">
+
+<!-- Bron sidebar https://www.w3schools.com/howto/howto_js_sidenav.asp -->
+
+<body>
+
+	<!-- Sidebar -->
+
+	<div id="mySidenav" class="sidenav">
+		<nav id="nav">
+			<span onclick="closeNav()"><img id="Cross" src="img/Cross.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+		<ul>
+			<li>
+				<a href="index.html" class="bar button large"><img src="img/Home.svg">Home</a>
+			</li>
+			<li>
+				<a href="#" class="bar button large"><img src="img/KlachtenRood.svg">Klachten</a>
+			</li>
+			<li>
+				<a href="#" class="bar button large"><img src="img/SuggestiesRood.svg">Suggesties</a>
+			</li>
+			<li>
+				<a href="#" class="bar button large"><img src="img/NoodgevalRood.svg">Noodgevallen</a>
+			</li>
+			<li>
+				<a href="#" class="bar button large"><img src="img/ProfielRood.svg">Mijn&nbsp;account</a>
+			</li>
+			<li>
+				<a href="#" class="bar button large"><img src="img/Folder.svg">Archief</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Header -->
+
+	<header>
+		<nav>
+			<span onclick="openNav()"><img id="Hamburger" src="img/Hamburger.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+	</header>
+
+	<!-- Hier komt content van de pagina -->
+
+	<script src="js/navigatie.js"></script>
+</body>
+
+</html>
