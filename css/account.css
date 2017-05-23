@@ -1,10 +1,28 @@
+@font-face {
+  font-family: Roboto;
+
+  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+ 
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+body{
+  font-family: roboto;
+}
+
 .detailAccount{
   height: 400px;
 }
 
   .lijnenOnderaan{
     height: 20px;
-    margin-top: 20%;
+    margin-top: 28%;
     text-align: center;
   }
   .lijnenOnderaan li{
@@ -43,3 +61,10 @@
 .detailAccount li p{
   margin: 5% 0 5% 3%;
 }
+
+.algemeneInstellingen select{
+  float: right;
+  border: 2px solid grey;
+  margin-top: 5%;
+}
+
