@@ -1,139 +1,148 @@
+@font-face {
+  font-family: Roboto;
+
+  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+ 
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------HOMEPAGINA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 750px){
   
   body{
-    font-family: "Roboto";
+    font-family: Roboto;
     background-color: #CCCCCC ;
+    margin: 0;
+    padding: 0;
   }
   
-  
-  .beschrijvingImage{
+  header{
+    margin-top: 10%;
     text-align: center;
-    font-size: 1.5em;
+  }
+  .logoFix{
+    width: 70%;
+  }
+  .iconDeel{
+    height: 350px;
+    box-sizing: border-box;
+    padding: 9%;
+  }
+  .ulIcons{
+    width: 100%;
+    margin:0;
+    padding: 0;
+  }
+ .ulIcons li{
+    width: 46%;
+    height: 150px;
+    list-style: none;
+    background-color: #3C3C3B;
+    color: white;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin: 2%;
+    font-weight: bolder;
+    letter-spacing: 1px; 
+   font-family: 'Roboto Bold'
   }
   
+ .ulIcons li img{
+    width: 67%;
+    margin-top: 9%;
+  }
   
-  #test{
-  position: absolute;
-  width: 100%;
-  height: 100px;
-}
-.titelPrijzenBijFoto{
-  border: 2px solid black;
-  background-color: rgba(255,255,255,.7);
-  height: 100px;
-  width: 40%;
-  box-sizing: border-box;
-  padding: 30px;
-  position: absolute;
-  z-index: 1;
-  top: 15%;
-  margin-left: 1.5%;
-  text-align: center;
-}
-#container {
-  width: 100%;
-  height: 470px;
-  margin-top: 6.4%;
-  position: relative;
+ .ulIcons .profielLi{
+    background-color: white;
+    color: #3C3C3B;
+    border-radius: 30px 0 0 0;
+  }
+  
+  .deelButton{
+    text-align: center
+  }
+  .bezoekEHB{
+    width: 79%;
+    background-color: #E30512;
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 1.5%;
+  }
+  
+  .lijnenOnderaan{
+    height: 20px;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .lijnenOnderaan li{
+    list-style: none;
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 2%;
+  }
+  .lijnenOnderaan ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .rood{
+    width: 45%;
+    background-color: #E30512;
+  }
+  .donkerGrijs{
+    width: 30%;
+    background-color: #3C3C3B;
+  }
+  .grijs{
+    background-color: #E8E8E8;
+    width: 25%;
+  }
+  footer{
+    height: 60px;
+  }
+  
 }
 
-#container img {
-  width: 100%;
-  height: 470px;
+@media screen and (max-width: 415px){
+.lijnenOnderaan{
+    margin-top: 27%;
+  }
+  
+@media screen and (max-width: 412px){
+.lijnenOnderaan{
+    margin-top: 10%;
+  }
+  
+@media screen and (max-width: 360px){
+.lijnenOnderaan{
+    margin-top: 13%;
+  }
+  
+  @media screen and (max-width: 321px){
+.lijnenOnderaan{
+    margin-top: 10%;
+  }
+     .ulIcons li{
+    width: 46%;
+    height: 130px;
+   
+  }
+   .iconDeel{
+    height: 302px;
+    box-sizing: border-box;
+    padding: 6%;
+  } 
 }
-
-#container .arrowLeft, .arrowRight {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border: none;
-  border-radius: 25px;
-  top: 45%;
-  margin-left: 1.5%;
-  background-color: black;
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  
-}
-#container .arrowRight{
-  margin-left: 95%;
-}
-
-
-
-.kiesDezePrijs {
-  background-color: rgba(252,252,252,.3);
-  height: 130px;
-  text-align: center;
-}
-
-
-.buttonPrijs , .buttonPrijsDetailPagina , .buttonPrijsGegevenspagina , .buttonPrijsBedankPagina, #openHetPopUpVenster, .doeMeeAanDeWedstrijd{
-  margin-top: 3%;
-  padding: 10px 150px;
-  border-radius: 10px;
-  background-color: rgba(226,178,46,.9);
-  box-shadow: 2px 3px 4px 2px;
-  text-decoration: none;
-  color: black;
-  font-size: 70%;
-  font-weight: bold;
-}
-
-.buttonPrijs:hover , .buttonPrijsDetailPagina:hover , .buttonPrijsGegevenspagina:hover , .buttonPrijsBedankPagina:hover , #openHetPopUpVenster:hover, .doeMeeAanDeWedstrijd:hover{
-  background-color: rgb(51,51,51);
-  border-radius: 10px;
-  box-shadow: 0px 0px 0px 0px;
-  transition: .25s;
-  color: white;
-  cursor: pointer;
-    }
-
-.buttonPrijsDetailPagina{
-  margin-top: 2%;
-  margin-left: 7.5%;
-}
-.buttonPrijsGegevenspagina{
-  margin-left: 17%;
-}
-.buttonPrijsBedankPagina{
-  margin-left: 10%;
-}
-
-  
-.hoeWinIkEenPrijs{
-  width: 100%;
-}
-
-.bulletnr {
-  cursor:pointer;
-  width: 85px;
-  height: 9px;
-  margin: 8px 3px;
-  background-color: white;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  text-indent: -9999px;
-}
-.active {
-  background-color: black;
-}
-
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
