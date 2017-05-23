@@ -1,0 +1,24 @@
+{
+    "klacht": [
+{
+    "id": "1",
+    "naam": "Klachtenmelding",
+    "img": "../img/KlachtenMelding_Bojan_Van_Damme.jpg",
+    "titel": "Klachtenmelding"
+},
+        {
+    "id": "2",
+    "naam": "Ford GT 2017",
+    "img": "../img/Homepagina.png",
+    "titel": "Homepagina"
+        },
+        {
+    "id": "3",
+    "naam": "Menu",
+    "img": "../img/Menu_Bojan_Van_Damme.jpg",
+    "titel": "Menu"
+        }
+    
+
+    ]
+}
