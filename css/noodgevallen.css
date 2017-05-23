@@ -60,6 +60,39 @@ article img{
     background-color: rgb(204,204,204);
 }
 
+ /*FOOTER*/
+
+  .lijnenOnderaan{
+    height: 20px;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .lijnenOnderaan li{
+    list-style: none;
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 2%;
+  }
+  .lijnenOnderaan ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .rood{
+    width: 45%;
+    background-color: #E30512;
+  }
+  .donkerGrijs{
+    width: 30%;
+    background-color: #3C3C3B;
+  }
+  .grijs{
+    background-color: #E8E8E8;
+    width: 25%;
+  }
+  footer{
+    height: 60px;
+  }
+
 @media screen and (max-width: 370px){
     h1{
         font-size: 1.1em;
@@ -73,4 +106,24 @@ article img{
     .kantooruren{
         width: 50%;
     }
+}
+@media screen and (max-width: 415px){
+.lijnenOnderaan{
+    margin-top: 27%;
+  }
+}
+@media screen and (max-width: 412px){
+.lijnenOnderaan{
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 360px){
+.lijnenOnderaan{
+    margin-top: 13%;
+  }
+}
+  @media screen and (max-width: 321px){
+.lijnenOnderaan{
+    margin-top: 10%;
+  }
 }
