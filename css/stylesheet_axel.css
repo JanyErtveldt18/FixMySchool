@@ -1,4 +1,4 @@
-@media screen and (max-width:750px) {
+@media screen and (max-width:1440px) {
     @font-face {
         font-family: Roboto;
         src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
@@ -40,13 +40,14 @@
         background-color: rgb(204, 204, 204);
     }
     #fotoContainer {
-        width: 20em;
+        width: 18.5em;
         
         
     }
     #fotoContainer img {
         margin: 0 5%;
-        width: 90%;
+        width: 100%;
+        height: auto;
         padding: 1em 0 0 0;
     }
     .Vorig,
@@ -140,7 +141,72 @@
         }
     }
 }
-
+@media screen and (max-width:360px) {
+    #overslaan {
+        padding: 0.5em;
+    }
+    #tekst p {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:320px) {
+    #fotoContainer {
+        width: 16em;
+        margin-left: 1.3em;    
+    }
+    #fotoContainer img {
+        margin: 0 5%;
+        width: 100%;
+        height: auto;
+        padding: 1em 0 0 0;
+    }
+      #overslaan {
+        padding: 0.4em;
+    }
+     #overslaan a {
+        font-family: 'Roboto Bold';
+        font-size: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    #doos {
+        margin:0 auto;
+     
+        max-width: 25em;
+        background-color: aliceblue;
+    }
+    #dots {
+        display: block;
+        box-sizing: border-box;
+        float: left;
+        margin-top: 0.5em;
+        padding-bottom: 0.8em;
+        margin-left: 8em;
+    }
+   
+   
+        .Aanwijzingen {
+        cursor: pointer;
+        height: 1em;
+        width: 1em;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .Aanwijzingen:hover {
+        background-color: red;
+    }
+    .Vorig:hover,
+    .Volgende:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .active {
+        background-color: black;
+    }
+}
 @media only screen and (max-width: 300px) {
     .Vorig,
     .Volgende {
