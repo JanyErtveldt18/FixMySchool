@@ -51,17 +51,17 @@ body{
     height: 60px;
   }
 
-.detailAccount li{
+.detailAccount li, .detailVeranderCampus li{
   
   height: 40px;
   border-bottom: 2px solid grey;
   list-style: none;
 }
 
-.detailAccount li p{
+.detailAccount li p, .detailVeranderCampus li p{
   margin: 5% 0 5% 3%;
 }
-.taal{
+.taal ,.campus{
   width: 60%;
   float: left;
 }
@@ -73,11 +73,32 @@ body{
   float: left;
   margin-top: 5%;
 }
-.algemeneInstellingenVerander{
+.algemeneInstellingenVerander , .test{
   padding-bottom: 5%;
 }
 
 #pijl{
   width: 2em;
 	padding-left: 3%;
+}
+
+.detailVeranderCampus li p{
+  width: 60%;
+}
+
+.detailVeranderCampus{
+  
+}
+.check{
+  display: none;
+  margin-top: 5%;
+}
+
+.checkKaai{
+  display: block;
+}
+
+.test p a{
+  text-decoration: none;
+  color: black;
 }
