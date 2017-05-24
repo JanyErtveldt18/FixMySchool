@@ -7,7 +7,9 @@
     <link href="/css/klachten.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1"> 
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/jquery-3.2.0.js"></script>
+    
+    <script src="/js/klachten.js"></script>
     
 </head>
     
@@ -15,22 +17,25 @@
     
     <!--NAVIGATIEBALK MOET HIER-->
     
-   <div class="ordeDrop">
-        <button onclick="dropDown()" class="dropKnp">&#x2193;</button>
+   <div class="ordeDrop"><p>Ordenen volgens</p>
+        <button onclick="dropDown()" class="dropKnp">&#x25BC;</button>
         <div id="dropContent" class="content">
  
             <ul id="ordenen">
                 <li>
                     <input type="checkbox" name="datum" value="datum">Datum</li>
                 <li>
-                    <input type="checkbox" name="datum" value="datum">Datum</li>
+                    <input type="checkbox" name="datum" value="datum">Behandeld</li>
                 <li>
-                    <input type="checkbox" name="datum" value="datum">Datum</li>
+                    <input type="checkbox" name="datum" value="datum">In behandeling</li>
                 <li>
-                    <input type="checkbox" name="datum" value="datum">Datum</li>
+                    <input type="checkbox" name="datum" value="datum">Niet behandeld</li>
+                <li>
+                    <input type="checkbox" name="datum" value="datum">Eigen inzendingen</li>
             </ul>
 
         </div>
+    </div>
     
     
     <ul id="klachtenlijst">
