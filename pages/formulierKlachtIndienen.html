@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Voeg hier de paginatitel in -->
 	<title>Klacht Indienen | Fix My School</title>
 	<!-- Link hier naar pagina CSS -->
 	<link rel="stylesheet" type="text/css" href="../css/formulierKlachtIndienen.css">
@@ -49,6 +50,7 @@
 	<main id="content">
 		
 		<img id="annuleerknop" src="../img/annuleerknop.svg">
+		<div class="clearfix"></div>
 		<form>
         <p>Campus</p>
 		    <select name="campussen">
@@ -58,13 +60,13 @@
 		        <option value="conservatorium">Conservatorium</option>
 		        <option value="dansaert">Dansaert</option>
 		    </select>
+            <br>
 		    <p>Gebouw</p>
 		    <select name="gebouwen">
 		        <option value="a">A</option>
 		        <option value="b">B</option>
 		        <option value="c">C</option>
 		    </select>
-		</form>
 		<p>Lokaal</p>
 		<select name="lokalen">
 		    <option value="100">B.101</option>
@@ -84,9 +86,14 @@
 		</select>
 		<br>
 		<input type="text" name="onderwerp" placeholder="Onderwerp">
+		<br>
 		<p>Beschijving</p>
+		<br>
 		<textarea name="beschrijving" rows="10" cols="40" placeholder="Voer hier uw beschrijving in."></textarea> 
-		
+		<button type="button">Verzenden</button>
+		<img id="fotoToevoegen" src="../img/FotoToevoegn.svg">
+       <div class="clearfix"></div>
+        </form>
 		
 	</main>
 	<script src="../js/navigatie.js"></script>
