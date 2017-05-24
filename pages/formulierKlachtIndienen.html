@@ -2,94 +2,101 @@
 <html lang="nl">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Klacht Indienen | Fix My School</title>
-	<!-- Link hier naar pagina CSS -->
-	<link rel="stylesheet" type="text/css" href="../css/formulierKlachtIndienen.css">
-	<!-- CSS voor sidebar -->
-	<link rel="stylesheet" href="../css/navigatie.css">
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Voeg hier de paginatitel in -->
+    <title>Klacht Indienen | Fix My School</title>
+    <!-- Link hier naar pagina CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/formulierKlachtIndienen.css">
+    <!-- CSS voor sidebar -->
+    <link rel="stylesheet" href="../css/navigatie.css"> </head>
 
 <body>
-	<!-- Sidebar -->
-	<div id="mySidenav" class="sidenav">
-		<nav id="nav">
-			<span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
-			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
-		</nav>
-		<ul>
-			<li>
-				<a href="index.html"><img src="../img/Home.svg">Home</a>
-			</li>
-			<li>
-				<a href="#"><img src="../img/KlachtenRood.svg">Klachten</a>
-			</li>
-			<li>
-				<a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
-			</li>
-			<li>
-				<a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
-			</li>
-			<li>
-				<a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
-			</li>
-			<li>
-				<a href="#"><img src="../img/Folder.svg">Archief</a>
-			</li>
-		</ul>
-	</div>
-	<!-- Header -->
-	<header>
-		<nav>
-			<span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
-			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
-		</nav>
-	</header>
-	<main id="content">
-		
-		<img id="annuleerknop" src="../img/annuleerknop.svg">
-		<form>
-        <p>Campus</p>
-		    <select name="campussen">
-		        <option value="kaai" selected>Kaai</option>
-		        <option value="bloemenveld">Bloemenveld</option>
-		        <option value="jette">Jette</option>
-		        <option value="conservatorium">Conservatorium</option>
-		        <option value="dansaert">Dansaert</option>
-		    </select>
-		    <p>Gebouw</p>
-		    <select name="gebouwen">
-		        <option value="a">A</option>
-		        <option value="b">B</option>
-		        <option value="c">C</option>
-		    </select>
-		</form>
-		<p>Lokaal</p>
-		<select name="lokalen">
-		    <option value="100">B.101</option>
-		    <option value="102">B.102</option>
-		    <option value="103">B.103</option>
-		    <option value="104">B.104</option>
-		    <option value="105">B.105</option>
-		    <option value="201">B.201</option>
-            <option value="202">B.202</option>
-            <option value="203">B.203</option>
-            <option value="203">B.203</option>
-            <option value="204">B.204</option>
-            <option value="205">B.205</option>
-            <option value="206">B.206</option>
-            <option value="207">B.207</option>
-            <option value="208">B.208</option>
-		</select>
-		<br>
-		<input type="text" name="onderwerp" placeholder="Onderwerp">
-		<p>Beschijving</p>
-		<textarea name="beschrijving" rows="10" cols="40" placeholder="Voer hier uw beschrijving in."></textarea> 
-		
-		
-	</main>
-	<script src="../js/navigatie.js"></script>
+    <!-- Sidebar -->
+    <div id="mySidenav" class="sidenav">
+        <nav id="nav"> <span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
+            <h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1> </nav>
+        <ul>
+            <li>
+                <a href="index.html"><img src="../img/Home.svg">Home</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/KlachtenRood.svg">Klachten</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/Folder.svg">Archief</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Header -->
+    <header>
+        <nav> <span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
+            <h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1> </nav>
+    </header>
+    <main id="content"> <img id="annuleerknop" src="../img/annuleerknop.svg">
+        <div class="clearfix"></div>
+        <form>
+            <div id="campus">
+                <p>Campus</p>
+                <select name="campussen">
+                    <option value="kaai" selected>Kaai</option>
+                    <option value="bloemenveld">Bloemenveld</option>
+                    <option value="jette">Jette</option>
+                    <option value="conservatorium">Conservatorium</option>
+                    <option value="dansaert">Dansaert</option>
+                </select>
+            </div>
+            <br>
+            <div id="gebouw">
+                <p>Gebouw</p>
+                <select name="gebouwen">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                </select>
+            </div>
+            <div id="lokalen">
+                <p>Lokaal</p>
+                <select name="lokalen">
+                    <option value="100">B.101</option>
+                    <option value="102">B.102</option>
+                    <option value="103">B.103</option>
+                    <option value="104">B.104</option>
+                    <option value="105">B.105</option>
+                    <option value="201">B.201</option>
+                    <option value="202">B.202</option>
+                    <option value="203">B.203</option>
+                    <option value="203">B.203</option>
+                    <option value="204">B.204</option>
+                    <option value="205">B.205</option>
+                    <option value="206">B.206</option>
+                    <option value="207">B.207</option>
+                    <option value="208">B.208</option>
+                </select>
+            </div>
+            <br>
+            <input type="text" name="onderwerp" placeholder="Onderwerp">
+            <br>
+            <div id="beschrijving">
+                <p>Beschijving</p>
+                <br>
+                <textarea name="beschrijving" rows="10" cols="40" placeholder="Voer hier uw beschrijving in."></textarea>
+            </div>
+            <div id="buttons">
+                <button type="button">Verzenden</button> <img id="fotoToevoegen" src="../img/FotoToevoegn.svg"> </div>
+            <div class="clearfix"></div>
+        </form>
+    </main>
+    <script src="../js/navigatie.js"></script>
 </body>
 
 </html>
