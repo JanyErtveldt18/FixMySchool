@@ -15,6 +15,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto';
 }
 
 nav {
@@ -63,7 +64,7 @@ nav {
 }
 
 .sidenav a {
-	padding: 8px 8px 8px 32px;
+	padding: 8px 8px 8px 10px;
 	text-decoration: none;
 	font-size: 1.5em;
 	color: #111;
@@ -110,10 +111,4 @@ li img {
 #Cross {
 	width: 2em;
 	padding-left: 3%;
-}
-
-@media screen and (max-width: 360px) {
-	#erasmushogeschool {
-		font-size: 1em;
-	}
 }
