@@ -7,8 +7,8 @@
 }
 
 main{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #annuleerknop{
@@ -25,4 +25,13 @@ main{
 select, input, p{
     display: inline-block;
     margin: 10px 0px;
+    font-size: 1.2em;
+}
+#gebouw, #lokalen{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+#gebouw p,#lokalen p,#campus p{
+    margin-right: 10px;
 }
