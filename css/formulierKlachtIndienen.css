@@ -14,8 +14,9 @@ main{
 #annuleerknop{
     width: 50px;
     height: 50px;
-    float: right;
-    margin: 15px 0px;
+    margin: -25px 0px 0px 75%;
+    position: absolute;
+    
 }
 #fotoToevoegen{
     width: 70px;
@@ -25,13 +26,46 @@ main{
 select, input, p{
     display: inline-block;
     margin: 10px 0px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+form{
+    padding-top: 45px;
+}
+#campus, #gebouw, #lokalen, #onderwerp{
+    border: 2px solid black;
+    border-top: none;
+    text-align: center;
+    margin-bottom: 35px;
 }
 #gebouw, #lokalen{
     display: inline-block;
-    width: 49%;
-    margin-bottom: 15px;
+    width: 47%;
 }
-#gebouw p,#lokalen p,#campus p{
+#gebouw p,#lokalen p,#campus p, #onderwerp p{
     margin-right: 10px;
+}
+#beschrijving p{
+    margin-bottom: 5px;
+}
+#beschrijving{
+    margin-bottom: 20px;
+}
+#beschrijving textarea{
+    font-size: 1em;
+}
+button{
+    background-color: rgb(227,6,19);
+    padding: 15px 32px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    color: white;
+}
+#gebouw{
+    margin-right: 8px;
+}
+#onderwerp{
+    margin-bottom: 25px;
+}
+select{
+    border: none;
 }

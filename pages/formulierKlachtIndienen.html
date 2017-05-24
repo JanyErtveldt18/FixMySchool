@@ -42,7 +42,8 @@
         <nav> <span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
             <h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1> </nav>
     </header>
-    <main id="content"> <img id="annuleerknop" src="../img/annuleerknop.svg">
+    <main id="content"> 
+        <a href=""><img id="annuleerknop" src="../img/annuleerknop.svg"></a>
         <div class="clearfix"></div>
         <form>
             <div id="campus">
@@ -55,7 +56,6 @@
                     <option value="dansaert">Dansaert</option>
                 </select>
             </div>
-            <br>
             <div id="gebouw">
                 <p>Gebouw</p>
                 <select name="gebouwen">
@@ -84,15 +84,17 @@
                 </select>
             </div>
             <br>
-            <input type="text" name="onderwerp" placeholder="Onderwerp">
-            <br>
+            <div id="onderwerp">
+            <p>Onderwerp</p>
+            <input type="text" name="onderwerp" placeholder="Vul hier uw onderwerp in.">
+            </div>
             <div id="beschrijving">
                 <p>Beschijving</p>
                 <br>
                 <textarea name="beschrijving" rows="10" cols="40" placeholder="Voer hier uw beschrijving in."></textarea>
             </div>
             <div id="buttons">
-                <button type="button">Verzenden</button> <img id="fotoToevoegen" src="../img/FotoToevoegn.svg"> </div>
+                <button type="submit" name="verzenden">Verzenden</button> <img id="fotoToevoegen" src="../img/FotoToevoegn.svg"> </div>
             <div class="clearfix"></div>
         </form>
     </main>
