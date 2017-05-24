@@ -26,14 +26,14 @@
 		<ul>
           <li class="algemeneInstellingenVerander">
               <p class="taal">Taal:</p>
-                  <select>
+                  <select onblur="taalHerkennen()" id="mySelect">
                         <option value="Nederlands">Nederlands</option>
                         <option value="Frans">Frans</option>
                         <option value="Engels">Engels</option>
                   </select>
           </li>
-          <li><p>Privacybeleid</p></li>
-          <li><p><a href="index.html">Log uit</a></p></li>
+          <li><p class="privacy">Privacybeleid</p></li>
+          <li><a href="../pages/index.html"><p class="logUit">Log uit</p></a></li>
 		</ul>
     </div>
     <footer>
@@ -47,8 +47,10 @@
   </div>
   </footer>
 	</main> 
+	<script src="../js/jquery-3.2.0.js"></script>
 	<script src="../js/navigatie.js"></script>
+	<script src="../js/instellingenDetail.js"></script>
 </body>
 
 </html>
- 
+  
