@@ -29,7 +29,8 @@ select, input, p{
     font-size: 1.1em;
 }
 form{
-    padding-top: 45px;
+    margin-top: 20px;
+    padding-top: 30px;
 }
 #campus, #gebouw, #lokalen, #onderwerp{
     border: 2px solid black;
@@ -45,7 +46,7 @@ form{
     margin-right: 10px;
 }
 #beschrijving p{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #beschrijving{
     margin-bottom: 20px;
@@ -68,4 +69,17 @@ button{
 }
 select{
     border: none;
+}
+
+@media screen and (max-width: 373px){
+    #gebouw, #lokalen{
+    width: 46%;
+    margin: 
+}
+    #campus #onderwerp{
+        width: 100%;
+    }
+    select, input, p{
+    font-size: 0.9em;
+}
 }
