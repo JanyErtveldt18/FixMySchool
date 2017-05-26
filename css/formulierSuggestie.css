@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; 
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#annuleerknop{
+    width: 50px;
+    height: 50px;
+    margin: -25px 0px 0px 75%;
+    position: absolute; 
+}
+select, input, p{
+    font-family: 'Roboto';
+    display: inline-block;
+    margin: 10px 0px;
+    font-size: 1.1em;
+}
+form{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+#campus, #onderwerp{
+    border: 2px solid black;
+    border-top: none;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#campus p, #onderwerp p{
+    margin-right: 10px;
+}
+#onderwerp input{
+    width: 170px;
+}
+#beschrijving p{
+    margin-bottom: 10px;
+}
+#beschrijving{
+    margin-bottom: 20px;
+}
+#beschrijving textarea{
+    font-family: 'Roboto';
+    font-size: 1em;
+}
+button{
+    background-color: rgb(227,6,19);
+    padding: 15px 32px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    color: white;
+}
+select{
+    border: none;
+}
+
+@media screen and (max-width: 373px){
+    select, input, p{
+    font-size: 0.9em;
+}
+}

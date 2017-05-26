@@ -93,8 +93,14 @@
                 <br>
                 <textarea name="beschrijving" rows="7" cols="30" placeholder="Voer hier uw beschrijving in."></textarea>
             </div>
-            <div id="buttons">
-                <button type="submit" name="verzenden">Verzenden</button> <img id="fotoToevoegen" src="../img/FotoToevoegn.svg"> </div>
+                <button type="submit" name="verzenden">Verzenden</button>
+                <div class="fotoUploaden">
+                    <label for="fotoNemen">
+                        <img id="fotoToevoegen" src="../img/FotoToevoegn.svg">
+                    </label>
+
+                        <input id="fotoNemen" type="file"/>
+                    </div>
             <div class="clearfix"></div>
         </form>
     </main>
