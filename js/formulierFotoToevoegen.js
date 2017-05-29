@@ -11,7 +11,7 @@ var img = document.getElementById('foto');
 fotoNemen.addEventListener('click', function() {
     var file = this.files[0];
     // Basic type checking.
-    if (file.type.indexOf('image') < 0) {
+    if (file.type.indexOf('jpg') < 0) {
         res.innerHTML = 'invalid type';
         return;
     }
@@ -58,4 +58,6 @@ function fetchimage () {
 // Call fetch to get image from localStorage.
 // So each time you reload the page, the image in localstorage will be 
 // put on tableBanner
-//fetchimage();
+fetchimage();
+
+console.log(fetchimage);
