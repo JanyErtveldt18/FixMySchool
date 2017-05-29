@@ -22,11 +22,14 @@
         background-color: rgb(204, 204, 204);
         overflow: auto;
     }
+    #tekst{
+    width: 20em;
+    height: 5em;
+    }
     #tekst p {
-        font-family: Roboto;
-        font-size: 1em;
-        padding: 0 1.2em;
-        padding-top: 1em;
+        font-family: 'Roboto bold';
+        font-size: 0.8em;
+        padding: 1em 1.2em;
         text-align: center;
         margin: 0;
     }
@@ -40,15 +43,16 @@
         background-color: rgb(204, 204, 204);
     }
     #fotoContainer {
-        width: 18.5em;
+        width: 100%;
+        height: 28.5em;
+        overflow: hidden;
+        border: 2px solid white;
         
         
     }
     #fotoContainer img {
-        margin: 0 5%;
         width: 100%;
-        height: auto;
-        padding: 1em 0 0 0;
+        height: auto;        
     }
     .Vorig,
     .Volgende {
@@ -75,8 +79,7 @@
     }
     #doos {
         position: fixed;
-        margin:0 auto;        
-        max-width: 30em;
+        bottom: 0;
         background-color: aliceblue;
     }
     #dots {
@@ -95,16 +98,15 @@
         margin-left: 19.5em;
     }
     #overslaan a {
-        font-family: 'Roboto Bold';
-        font-size: 1.2em;
+        font-family: 'Roboto Bold'; 
         text-align: center;
         text-decoration: none;
         color: black;
     }
     .Aanwijzingen {
         cursor: pointer;
-        height: 1.5em;
-        width: 1.5em;
+        height: 1em;
+        width: 1em;
         margin: 0 2px;
         background-color: #bbb;
         border-radius: 50%;
@@ -117,7 +119,6 @@
     .active {
         background-color: black;
     }
-    
     .fade {
         -webkit-animation-name: fade;
         -webkit-animation-duration: 1.5s;
@@ -141,77 +142,59 @@
         }
     }
 }
+
+
 /*Iphone 6 plus*/
+
 @media screen and (max-width:414px) {
- #overslaan {
+    #overslaan {
         padding: 1em;
-        margin-left: 21.5em;
+        margin-left: 22em;
+        
     }
     #dots {
         margin-left: 10em;
     }
-  
 }
+
 @media screen and (max-width:376px) {
- #overslaan {
+    #overslaan {
         padding: 1em;
         margin-left: 20em;
     }
     #dots {
         margin-left: 10em;
     }
-  
 }
 
 @media screen and (max-width:360px) {
- #overslaan {
-        padding: 1em 0;
+    #overslaan {
+        padding: 3.5% 0;
         margin-left: 19.5em;
-     padding-right: 1em;
+        padding-right: 1em;
     }
     #dots {
-        margin-left: 10em;
+        margin-left: 8.5em;
     }
-     #fotoContainer {
-        width: 17.5em;
-        
-        
-    }
-    #fotoContainer img {
-        margin: 0 5%;
-        width: 100%;
-        height: auto;
-        padding: 1em 0 0 0;
-    }
-  
 }
+
 @media screen and (max-width:320px) {
-        #fotoContainer {
-        width: 14.5em; 
-            margin-left: 2em;
-        
-    }
-    #fotoContainer img {
-        margin: 0 5%;
-        width: 100%;
-        height: auto;
-        padding: 1em 0 0 0;
+    #fotoContainer {
+        width: 14.5em;
+        height: 25em;
+        margin: 0 auto;
     }
     #overslaan {
         padding: 1em 0;
         margin-left: 16.5em;
-     padding-right: 1.5em;
+        padding-right: 1.5em;
     }
     #dots {
         padding: 0.5em;
         margin-left: 7.5em;
     }
-    .Aanwijzingen{
-        height:1em;
+    .Aanwijzingen {
+        height: 1em;
         width: 1em;
     }
-    
 }
-
-
-
