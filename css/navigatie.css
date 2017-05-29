@@ -115,12 +115,6 @@
 	
 	@media screen and (max-width: 360px) {
 		#erasmushogeschool {
-			margin: auto;
-			padding: 6px 10% 6px 0px;
-			float: right;
-			color: white;
-			font-family: 'Roboto';
-			font-weight: 700;
 			font-size: 1em;
 		}
 	}
