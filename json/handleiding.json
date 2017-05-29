@@ -3,20 +3,23 @@
 {
     "id": "1",
     "naam": "Klachtenmelding",
-    "img": "../img/KlachtenMelding_Bojan_Van_Damme.jpg",
-    "titel": "Klachtenmelding"
+    "img": "../img/login.png",
+    "titel": "Klachtenmelding",
+    "beschrijving":"Welkom op onze login pagina, <br> gelieve eerst uw campus te kiezen en vervolgens in te loggen"
 },
         {
     "id": "2",
     "naam": "Ford GT 2017",
     "img": "../img/Homepagina.png",
-    "titel": "Homepagina"
+    "titel": "Homepagina",
+    "beschrijving":"De homepagina geeft u de mogelijkheid om een klacht, een suggestie, de noodgevalpagina en om uw eigen account te raadplegen"
         },
         {
     "id": "3",
     "naam": "Menu",
-    "img": "../img/Menu_Bojan_Van_Damme.jpg",
-    "titel": "Menu"
+    "img": "../img/noodgevallen.png",
+    "titel": "Menu",
+    "beschrijving":"Hier ziet u de procedures die gevolgd worden ingeval van nood"
         }
     
 
