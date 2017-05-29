@@ -28,7 +28,7 @@ fotoNemen.addEventListener('click', function() {
         // Use your function will ensure the format is png.
         localStorage.setItem("imgData", getBase64Image(img));
         // You can just use as its already a string.
-        localStorage.setItem("imgData", fReader.result);
+        //localStorage.setItem("imgData", fReader.result);
     };
 
     // Read the file to DataURL format.
