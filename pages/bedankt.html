@@ -1,34 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Fix My School</title>
-    <link href="/css/klachten.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1"> 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fix My School</title>
+	<link rel="stylesheet" href="../css/navigatie.css">
+	<link href="../css/klachten.css" rel="stylesheet" type="text/css">
 </head>
-    
-<body>
-    
-    <!--NAVIGATIEBALK MOET HIER-->
-    
-    
-    <ul id="mijnklachtenlijst">
-        
-        <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/roodbol.svg" alt="">
-        </li></div>    
-        
-    </ul>
-    
-    <h1>Bedankt voor uw inzending! We nemen het zo snel als mogelijk in behandeling.</h1>
-    
-    
 
+<body>
+	<!-- Sidebar -->
+	<div id="mySidenav" class="sidenav">
+		<nav id="nav">
+			<span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+		<ul>
+			<li>
+				<a href="index.html"><img src="../img/Home.svg">Home</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/KlachtenRood.svg">Klachten</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/Folder.svg">Archief</a>
+			</li>
+		</ul>
+	</div>
+	<!-- Header -->
+	<header>
+		<nav>
+			<span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+	</header>
+	<main id="content">
+		<ul id="mijnklachtenlijst">
+
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/roodbol.svg" alt="">
+				</li>
+			</div>
+
+		</ul>
+
+		<h1>Bedankt voor uw inzending! We nemen het zo snel als mogelijk in behandeling.</h1>
+	</main>
+	<script src="../js/navigatie.js"></script>
 </body>
-    
+
 </html>
