@@ -59,7 +59,6 @@ ul {
 	min-width: 160px;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
 }
 
 #ordenen ul li {
@@ -118,6 +117,12 @@ body {
 }
 */
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
 .ordeDrop {
 	position: relative;
 	background-color: #E30512;
@@ -169,8 +174,8 @@ body {
 	height: 4em;
 	border-radius: 3em;
 	position: fixed;
-	margin-left: 75%;
-	top: 80%;
+	margin-left: 18em;
+	top: 35em;
 }
 
 .add button {
@@ -179,7 +184,7 @@ body {
 	font-size: 1.5em;
 	background: none;
 	font-size: 4em;
-	line-height: 0.9em;
+	line-height: 0.95em;
 }
 
 h1 {
@@ -191,4 +196,9 @@ h1 {
 
 #grijs {
 	background-color: #E8E8E8;
+}
+
+#klachtenlijstLocalStorage .grijzeKleur{
+  text-decoration: none;
+  background-color: #E8E8E8;
 }

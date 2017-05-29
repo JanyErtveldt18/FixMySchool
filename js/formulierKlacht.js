@@ -1,11 +1,18 @@
-var onderwerp = document.getElementById("onderwerpTekst").value;
-console.log(onderwerp);
+var onderwerp = '';
+function saveInLocalStorage(){
+  onderwerp = document.getElementById("onderwerpTekst").value;
+  console.log(onderwerp);
+
+  
+  localOpslaan();
+}
 
 
-//function formulierOpslaan(){
-//    if (typeof(Storage) !== "undefined"){
-//        localStorage
-//    }else{
-//        
-//    }
-//}
+function localOpslaan() {
+    if (typeof (Storage) !== "undefined") {
+      localStorage.setItem("hierWordtHetOnderwerpInOpgeslagen", onderwerp);
+  
+    } else {
+      console.log("fail");
+    }
+  }

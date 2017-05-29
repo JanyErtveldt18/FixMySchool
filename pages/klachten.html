@@ -11,9 +11,7 @@
 	<!-- CSS voor sidebar -->
 	<link rel="stylesheet" href="../css/navigatie.css">
     
-    <script src="/js/jquery-3.2.0.js"></script>
     
-    <script src="/js/klachten.js"></script>
 </head>
 
 <body>
@@ -28,16 +26,16 @@
 				<a href="index.html"><img src="../img/Home.svg">Home</a>
 			</li>
 			<li>
-				<a href="#"><img src="../img/KlachtenRood.svg">Klachten</a>
+				<a href="../pages/klachten.html"><img src="../img/KlachtenRood.svg">Klachten</a>
 			</li>
 			<li>
-				<a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
+				<a href="../pages/suggesties.html"><img src="../img/SuggestiesRood.svg">Suggesties</a>
 			</li>
 			<li>
-				<a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
+				<a href="../pages/noodgevallen.html"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
 			</li>
 			<li>
-				<a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
+				<a href="../pages/account.html"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
 			</li>
 			<li>
 				<a href="#"><img src="../img/Folder.svg">Archief</a>
@@ -75,11 +73,16 @@
     
     
     <ul id="klachtenlijst">
-        
+        <ul id="klachtenlijstLocalStorage">
+          
+        </ul>
+<!--        <a href="klachtenbeschrijving.html">-->
         <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/groenbol.svg" alt="">
         </li>
+<!--        </a>-->
+        
         <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/roodbol.svg" alt="">
@@ -92,10 +95,12 @@
         <img src="../img/Information.svg" alt="">
         <img src="../img/roodbol.svg" alt="">
         </li></div>
+<!--        <a href="klachtenbeschrijving.html">-->
         <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/groenbol.svg" alt="">
         </li>
+<!--        </a>-->
         <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/roodbol.svg" alt="">
@@ -108,10 +113,12 @@
         <img src="../img/Information.svg" alt="">
         <img src="../img/roodbol.svg" alt="">
         </li></div>
+<!--        <a href="klachtenbeschrijving.html">-->
         <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/groenbol.svg" alt="">
         </li>
+<!--        </a>-->
         <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
         <img src="../img/Information.svg" alt="">
         <img src="../img/roodbol.svg" alt="">
@@ -128,12 +135,16 @@
     </ul>
     
     <div class="add"> 
+        <a href="formulierKlacht.html">
         <center><button>&#43;</button></center>
+        </a>
     </div>
         
         <!-- Hier komt de pagina content -->
 	</main>
-	<script src="../js/navigatie.js"></script>
+	
 </body>
-
+  <script src="/js/jquery-3.2.0.js"></script>
+  <script src="../js/navigatie.js"></script>
+  <script src="/js/klachten.js"></script>
 </html>
