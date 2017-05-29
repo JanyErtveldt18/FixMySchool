@@ -22,12 +22,11 @@
 .dropKnp {
 	background-color: #E30512;
 	color: white;
-	padding: 16px 16px;
+	padding: 15px 10px 10px 0;
 	font-size: 30px;
 	border: none;
 	cursor: pointer;
 	float: right;
-	margin-top: 3%;
 }
 
 .ordeDrop p {
@@ -37,7 +36,6 @@
 	float: left;
 	margin: 0;
 	padding: 0;
-	padding-top: 2%;
 	padding-left: 4%;
 }
 
@@ -123,8 +121,8 @@ body {
 .ordeDrop {
 	position: relative;
 	background-color: #E30512;
-	height: 5em;
-	line-height: 5em;
+	height: 4.3em;
+	line-height: 4.3em;
 	color: white;
 }
 
