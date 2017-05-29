@@ -49,6 +49,13 @@ form{
     text-align: center;
     margin-bottom: 35px;
 }
+#beschrijving{
+    border: 2px solid black;
+    border-top: none;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 35px;
+}
 #gebouw, #lokalen{
     display: inline-block;
     width: 47%;
