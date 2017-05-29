@@ -19,7 +19,7 @@
 	}
 	
 	nav {
-		z-index: 99999;
+		z-index: 999999;
 		width: 100%;
 		background-color: #3c3c3b;
 		background-color: #3c3c3b;
@@ -52,7 +52,7 @@
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		z-index: 1;
+		z-index: 9999999;
 		top: 0;
 		left: 0;
 		background-color: #fff;
