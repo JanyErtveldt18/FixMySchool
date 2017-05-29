@@ -134,30 +134,35 @@ body {
 	line-height: 2em;
 }
 
-#klachtenlijst,
-#mijnklachtenlijst {
-	position: relative;
-	height: 5em;
-	line-height: 5em;
-	font-weight: bold;
-	list-style: none;
+#klachtenlijst, 
+#mijnklachtenlijst, 
+#suggestielijst
+{
+    position: relative;
+    height: 5em;
+    line-height: 5em;
+    font-weight: bold;
+    list-style: none;
 }
 
-#klachtenlijst img,
-#mijnklachtenlijst img {
-	width: 1.3em;
-	float: right;
-	height: 5em;
-	padding-right: 1.5em;
+#klachtenlijst img, 
+#mijnklachtenlijst img
+{
+    width: 1.3em;
+    float: right;
+    height: 5em;
+    padding-right: 1.5em;
 }
 
-#klachtenlijst span,
-#mijnklachtenlijst span {
-	font-weight: normal;
-	font-size: 0.7em;
-	color: darkgrey;
-	margin-right: 3%;
-	padding-left: 3%;
+#klachtenlijst span, 
+#mijnklachtenlijst span, 
+#suggestielijst span
+{
+    font-weight: normal;
+    font-size: 0.7em;
+    color: darkgrey;
+    margin-right: 3%;
+    padding-left: 3%;
 }
 
 .add {
