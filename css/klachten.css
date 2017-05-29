@@ -177,6 +177,7 @@ a
 	position: fixed;
 	margin-left: 75%;
 	top: 85%;
+    box-shadow: 4px 4px 15px black;
 }
 
 .add button {
