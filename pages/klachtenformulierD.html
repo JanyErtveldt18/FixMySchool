@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Voeg hier de paginatitel in -->
+	<title>Klachtenbeschijving | Fix My School</title>
+	<!-- Link hier naar pagina CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/klachtenmeldingen.css">
+	<!-- CSS voor sidebar -->
+	<link rel="stylesheet" href="../css/navigatie.css">
+</head>
+
+<body>
+	<!-- Sidebar -->
+	<div id="mySidenav" class="sidenav">
+		<nav id="nav">
+			<span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+		<ul>
+			<li>
+				<a href="index.html"><img src="../img/Home.svg">Home</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/KlachtenRood.svg">Klachten</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/Folder.svg">Archief</a>
+			</li>
+		</ul>
+	</div>
+	<!-- Header -->
+	<header>
+		<nav>
+			<span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+	</header>
+	<main id="content">
+		<div id="contentDiv">
+			<h1 id="onderwerp"></h1>
+            <h2 id="gebouwTekst"></h2>
+            <h2 id="campusTekst"></h2>
+			<h3>02/06/2017 - 15u20</h3>
+			<p id="beschrijvingTekst"></p>
+			<img id="foto" src="">
+			<p id="pstatus">Status: In behandeling</p>
+			<img id="circle" src="../img/Circleoranje.svg">
+		</div>
+		<div id="contentDiv">
+			<br>
+			<button class="buttonTerug"><a>&#60; Terug</a></button>
+		</div>
+	</main>
+</body>
+<script src="../js/navigatie.js"></script>
+<script src="../js/formulierFotoToevoegen.js"></script>
+</html>
