@@ -48,7 +48,7 @@
         <form>
             <div id="campus">
                 <p>Campus:</p>
-                <select name="campussen">
+                <select id="campusTekst" name="campussen">
                     <option value="kaai" selected>Kaai</option>
                     <option value="bloemenveld">Bloemenveld</option>
                     <option value="jette">Jette</option>
@@ -58,7 +58,7 @@
             </div>
             <div id="gebouw">
                 <p>Gebouw:</p>
-                <select name="gebouwen">
+                <select id="gebouwTekst" name="gebouwen">
                     <option value="a">A</option>
                     <option value="b">B</option>
                     <option value="c">C</option>
@@ -66,7 +66,7 @@
             </div>
             <div id="lokalen">
                 <p>Lokaal:</p>
-                <select name="lokalen">
+                <select id="lokalenTekst" name="lokalen">
                     <option value="100">B.101</option>
                     <option value="102">B.102</option>
                     <option value="103">B.103</option>
@@ -86,12 +86,12 @@
             <br>
             <div id="onderwerp">
             <p>Onderwerp:</p>
-            <input type="text" name="onderwerp" placeholder="Vul hier in.">
+            <input type="text" id="onderwerpTekst" name="onderwerp" placeholder="Vul hier in.">
             </div>
             <div id="beschrijving">
                 <p>Beschijving</p>
                 <br>
-                <textarea name="beschrijving" rows="7" cols="30" placeholder="Voer hier uw beschrijving in."></textarea>
+                <textarea id="beschrijvingTekst" name="beschrijving" rows="7" cols="30" placeholder="Voer hier uw beschrijving in."></textarea>
             </div>
                 <button type="submit" name="verzenden">Verzenden</button>
                 <div class="fotoUploaden">
@@ -104,7 +104,9 @@
             <div class="clearfix"></div>
         </form>
     </main>
-    <script src="../js/navigatie.js"></script>
+    
 </body>
-
+  <script src="../js/jquery-3.2.0.js"></script>
+  <script src="../js/navigatie.js"></script>
+  <script src="../js/formulierKlacht.js"></script>
 </html>
