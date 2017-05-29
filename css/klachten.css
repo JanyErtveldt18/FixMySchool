@@ -197,3 +197,8 @@ h1 {
 #grijs {
 	background-color: #E8E8E8;
 }
+
+#klachtenlijstLocalStorage .grijzeKleur{
+  text-decoration: none;
+  background-color: #E8E8E8;
+}
