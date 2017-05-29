@@ -27,7 +27,8 @@ main{
     width: 50px;
     height: 50px;
     margin: -25px 0px 0px 75%;
-    position: absolute; 
+    position: absolute;
+    z-index: 999999;
 }
 #fotoToevoegen{
     width: 70px;
@@ -72,11 +73,13 @@ form{
 #beschrijving textarea{
     font-family: 'Roboto';
     font-size: 1em;
+    width: 96%;
+    height: 5em;
 }
 button{
     background-color: rgb(227,6,19);
     padding: 15px 32px;
-    margin-right: 80px;
+    margin-right: 90px;
     font-size: 1.1em;
     border-radius: 8px;
     color: white;
@@ -96,6 +99,9 @@ select{
 }
 .fotoUploaden input{
     display: none;
+}
+.fotoToevoegen{
+    position: relative;
 }
 
 @media screen and (max-width: 373px){

@@ -1,3 +1,7 @@
+//https://stackoverflow.com/questions/31850732/save-a-file-image-to-localstorage-html
+
+
+
 // Get all variables
 var fotoNemen = document.getElementById('fotoNemen');
 var result = document.getElementById('res');
