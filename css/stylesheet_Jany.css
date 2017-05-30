@@ -5,7 +5,7 @@
   font-weight: 400;
   font-style: normal; }
 
-
+ 
 @font-face {
   font-family: 'Roboto Bold';
   src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
@@ -16,31 +16,31 @@
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------HOMEPAGINA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 750px){
   
-  body{
+  .homepagina{
     font-family: Roboto;
     background-color: #CCCCCC ;
     margin: 0;
     padding: 0;
   }
   
-  header{
+  .homepagina header{
     margin-top: 10%;
     text-align: center;
   }
-  .logoFix{
+  .homepagina .logoFix{
     width: 70%;
   }
-  .iconDeel{
+ .homepagina .iconDeel{
     height: 350px;
     box-sizing: border-box;
     padding: 9%;
   }
-  .ulIcons{
+  .homepagina .ulIcons{
     width: 100%;
     margin:0;
     padding: 0;
   }
- .ulIcons li{
+ .homepagina .ulIcons li{
     width: 46%;
     height: 150px;
     list-style: none;
@@ -55,21 +55,21 @@
    font-family: 'Roboto Bold'
   }
   
- .ulIcons li img{
+.homepagina .ulIcons li img{
     width: 67%;
     margin-top: 9%;
   }
   
- .ulIcons .profielLi{
+.homepagina .ulIcons .profielLi{
     background-color: white;
     color: #3C3C3B;
     border-radius: 30px 0 0 0;
   }
   
-  .deelButton{
+.homepagina .deelButton{
     text-align: center
   }
-  .bezoekEHB{
+  .homepagina .bezoekEHB{
     width: 79%;
     background-color: #E30512;
     border: none;
@@ -80,64 +80,64 @@
     margin-top: 1.5%;
   }
   
-  .lijnenOnderaan{
+ .homepagina .lijnenOnderaan{
     height: 20px;
     margin-top: 20%;
     text-align: center;
   }
-  .lijnenOnderaan li{
+  .homepagina .lijnenOnderaan li{
     list-style: none;
     float: left;
     text-indent: -9999px;
     margin-bottom: 2%;
   }
-  .lijnenOnderaan ul{
+  .homepagina .lijnenOnderaan ul{
     margin-top: 10px;
     padding: 0;
   }
-  .rood{
+  .homepagina .rood{
     width: 45%;
     background-color: #E30512;
   }
-  .donkerGrijs{
+  .homepagina .donkerGrijs{
     width: 30%;
     background-color: #3C3C3B;
   }
-  .grijs{
+  .homepagina .grijs{
     background-color: #E8E8E8;
     width: 25%;
   }
-  footer{
+  .homepagina footer{
     height: 60px;
   }
   
 }
 
 @media screen and (max-width: 415px){
-.lijnenOnderaan{
+.homepagina .lijnenOnderaan{
     margin-top: 27%;
   }
 }
 @media screen and (max-width: 412px){
-.lijnenOnderaan{
+.homepagina .lijnenOnderaan{
     margin-top: 10%;
   }
   
 @media screen and (max-width: 360px){
-.lijnenOnderaan{
+.homepagina .lijnenOnderaan{
     margin-top: 13%;
   }
   
   @media screen and (max-width: 321px){
-.lijnenOnderaan{
+.homepagina .lijnenOnderaan{
     margin-top: 10%;
   }
-     .ulIcons li{
+    .homepagina .ulIcons li{
     width: 46%;
     height: 130px;
    
   }
-   .iconDeel{
+  .homepagina  .iconDeel{
     height: 302px;
     box-sizing: border-box;
     padding: 6%;
