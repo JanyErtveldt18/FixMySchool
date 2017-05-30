@@ -22,6 +22,9 @@ main{
     padding-left: 20px;
     padding-right: 20px;
 }
+a{
+    text-decoration: none;
+}
 
 #annuleerknop{
     width: 50px;
@@ -102,6 +105,9 @@ select{
 }
 .fotoToevoegen{
     position: relative;
+}
+#beschrijvingTekst{
+  max-width: 96%;
 }
 
 @media screen and (max-width: 373px){
