@@ -13,7 +13,7 @@
 }
 
 
-/*------------------------------------*/
+/*---------------------------------------------------------*/
 
 * {
 	margin: 0;
@@ -45,12 +45,7 @@
 	display: block;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-.content {
+.contentKlacht {
 	margin-top: 70px;
 	padding: 1em 0 1em 1em;
 	width: 100%;
@@ -76,8 +71,6 @@ ul {
 .show {
 	display: block;
 }
-
-/*---------------------------------------*/
 
 a
 {
@@ -191,9 +184,4 @@ a
   background-color: #E8E8E8;
 }
 
-@media screen and (max-width: 360px) {
-		.add {
-            margin-left: 75%;
-            top: 85%;
-        }
-	}
+/*---------------------------------------------------------*/

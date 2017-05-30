@@ -12,33 +12,33 @@
 	font-style: normal;
 }
 
-#contentDiv {
+#klachtenmeldingCSS #contentDiv {
 	margin: 5% 10%;
 }
 
-h1,
-h2 {
+#klachtenmeldingCSS h1,
+#klachtenmeldingCSS h2 {
 	margin-bottom: 3%;
 }
 
-h2 {
+#klachtenmeldingCSS h2 {
 	font-size: 1.1em;
 	font-weight: 400;
 }
 
-h3 {
+#klachtenmeldingCSS h3 {
 	font-size: 1em;
 	color: #bebebe;
 	margin-bottom: 10%;
 	font-weight: 400;
 }
 
-#pbeschrijving,
-#foto {
+#klachtenmeldingCSS #pbeschrijving,
+#klachtenmeldingCSS #foto {
 	margin-bottom: 10%;
 }
 
-.buttonTerug {
+#klachtenmeldingCSS .buttonTerug {
 	background-color: #E30512;
 	border: none;
 	color: white;
@@ -53,21 +53,21 @@ h3 {
 	margin-bottom: 5%;
 }
 
-#foto {
+#klachtenmeldingCSS #foto {
 	width: 80%;
 }
 
-#circle {
+#klachtenmeldingCSS #circle {
 	width: 1em;
 	float: left;
 	margin-left: 1em;
 }
 
-#pstatus {
+#klachtenmeldingCSS #pstatus {
 	float: left;
 	margin-bottom: 5%;
 }
-button a{
+#klachtenmeldingCSS button a{
   color: white;
   text-decoration: none;
 }
