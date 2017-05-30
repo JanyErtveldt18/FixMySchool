@@ -61,6 +61,7 @@ function checkOnderwerp(){
     
    
     if(lengteOnderwerp >= 3){
+      if(lengteOnderwerp <= 15){
        //https://stackoverflow.com/questions/3532053/regular-expression-for-only-characters-a-z-a-z
       if(waardeOnderwerp = waardeOnderwerp.match(/^[a-zA-Z ]+$/i)){
          
@@ -71,6 +72,7 @@ function checkOnderwerp(){
           return false;
       }
     }
+}
 }
 function checkBeschrijving(){
    var waardeBeschrijving = document.getElementById("beschrijvingTekst").value;
