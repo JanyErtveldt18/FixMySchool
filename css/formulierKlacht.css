@@ -22,6 +22,9 @@ main{
     padding-left: 20px;
     padding-right: 20px;
 }
+a{
+    text-decoration: none;
+}
 
 #annuleerknop{
     width: 50px;
