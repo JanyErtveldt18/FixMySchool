@@ -21,7 +21,7 @@ function vulBeschrijving(){
   
  document.getElementById("hierKomtHetGebouw").innerHTML = '<h2>' + localStorage.getItem('hierWordtHetGebouwInOpgeslagen') +"."+ localStorage.getItem('hierWordtHetLokaalInOpgeslagen') +" - Campus "+localStorage.getItem('hierWordtDeCampusInOpgeslagen') + '</h2>';  
   
- document.getElementById("hierKomtDeDatum").innerHTML = '<h3>' + + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear()  + '</h3>';  
+ document.getElementById("hierKomtDeDatum").innerHTML = '<h3>' + + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + " - " +dt.getHours()+"u"+dt.getMinutes()+ '</h3>';  
   
  document.getElementById("hierKomtDeBeschrijving").innerHTML = '<p>' +localStorage.getItem("hierWordtDeBeschrijvingInOpgeslagen")+'</p>';  
  

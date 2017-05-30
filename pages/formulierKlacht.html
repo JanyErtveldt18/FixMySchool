@@ -86,14 +86,14 @@
             <br>
             <div id="onderwerp">
             <p>Onderwerp:</p>
-            <input type="text" id="onderwerpTekst" name="onderwerp" placeholder="Vul hier in." >
+            <input type="text" id="onderwerpTekst" name="onderwerp" placeholder="Vul hier in." onblur="controleOnderwerpEnBeschrijving()" >
             </div>
             <div id="beschrijving">
                 <p>Beschijving</p>
                 <br>
-                <textarea id="beschrijvingTekst" name="beschrijving"  placeholder="Voer hier uw beschrijving in."></textarea>
+                <textarea id="beschrijvingTekst" name="beschrijving"  placeholder="Voer hier uw beschrijving in." onblur="controleOnderwerpEnBeschrijving()"></textarea>
             </div>
-            <a href="../pages/bedankt.html"><button type="submit" name="verzenden" onclick="saveInLocalStorage()">Verzenden</button></a>
+            <a href="../pages/bedankt.html"><button id="submit" type="submit" name="verzenden" onclick="saveInLocalStorage()">Verzenden</button></a>
                 <div class="fotoUploaden">
                     <label for="fotoNemen">
                         <img id="fotoToevoegen" src="../img/FotoToevoegn.svg">
