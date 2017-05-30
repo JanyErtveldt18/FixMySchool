@@ -72,7 +72,7 @@ body
     color: darkgrey;
 }
 
-select
+.selectIndex
 {
     width: 90%;
     height: 4em;
@@ -80,7 +80,7 @@ select
     font-size: 0.80em
 }
 
-input 
+.inputIndex 
 {
     width: 90%;
     height: 50px;
@@ -106,7 +106,7 @@ input
 
 
 
-@media only screen and (max-width: 10px) 
+@media only screen and (max-width: 360px) 
 {
     
 }
