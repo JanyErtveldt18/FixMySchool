@@ -1,725 +1,1052 @@
-		@font-face {
-			font-family: Roboto;
-			src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
-			font-weight: 400;
-			font-style: normal;
+		        @font-face {
+		    font-family: Roboto;
+		    src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+		    font-weight: 400;
+		    font-style: normal;
 		}
 		
 		@font-face {
-			font-family: 'Roboto Bold';
-			src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
-			font-weight: 700;
-			font-style: normal;
+		    font-family: 'Roboto Bold';
+		    src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+		    font-weight: 700;
+		    font-style: normal;
 		}
 		
 		* {
-			margin: 0;
-			font-family: "Roboto", sans-serif;
+		    margin: 0;
+		    font-family: "Roboto", sans-serif;
 		}
-		/* INDEX (Imane)*/
+		/* INDEX */
 		
 		.bodyIndex {
-			background-color: #3C3C3B;
+		    background-color: #3C3C3B;
 		}
 		
 		.logoIndex img {
-			width: 90%;
-			margin-left: auto;
-			margin-right: auto;
-			display: block;
-			margin-top: 35%;
-			margin-bottom: 10%;
+		    width: 90%;
+		    margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		    margin-top: 35%;
+		    margin-bottom: 10%;
 		}
 		
 		.logoIndex {}
 		
 		.languagesIndex {
-			color: white;
-			margin-left: 15%;
+		    color: white;
+		    margin-left: 15%;
 		}
 		
 		.languagesIndex p {
-			text-align: center;
-			padding: 0.5em;
-			margin-bottom: 10px;
-			font-size: 0.80em;
-			text-decoration: none;
-			color: white;
-			width: 25%;
-			float: left;
+		    text-align: center;
+		    padding: 0.5em;
+		    margin-bottom: 10px;
+		    font-size: 0.80em;
+		    text-decoration: none;
+		    color: white;
+		    width: 25%;
+		    float: left;
 		}
 		
 		#nl p {
-			text-align: right;
+		    text-align: right;
 		}
 		
 		#en p {
-			text-align: left;
+		    text-align: left;
 		}
 		
 		.selected p {
-			color: darkgrey;
+		    color: darkgrey;
 		}
 		
 		.selectIndex {
-			width: 90%;
-			height: 4em;
-			margin-left: 5%;
-			font-size: 0.80em
+		    width: 90%;
+		    height: 4em;
+		    margin-left: 5%;
+		    font-size: 0.80em
 		}
 		
 		.inputIndex {
-			width: 90%;
-			height: 50px;
-			margin-left: 5%;
-			color: white;
-			background-color: #E30512;
-			border: none;
-			font-size: 1.2em;
+		    width: 90%;
+		    height: 50px;
+		    margin-left: 5%;
+		    color: white;
+		    background-color: #E30512;
+		    border: none;
+		    font-size: 1.2em;
 		}
 		
 		.handleidingIndex p {
-			color: white;
-			font-size: 0.80em;
-			text-decoration: underline;
-			text-align: center;
-			margin-top: 10px;
+		    color: white;
+		    font-size: 0.80em;
+		    text-decoration: underline;
+		    text-align: center;
+		    margin-top: 10px;
 		}
 		
 		.handleidingIndex {
-			width: 100%;
+		    width: 100%;
 		}
-		/* KLACHTEN+SUGGESTIES+BEDANKT+MIJN INZENDINGEN (Imane)*/
+		/* KLACHTEN+SUGGESTIES+BEDANKT+MIJN INZENDINGEN */
 		
 		.dropKnp {
-			background-color: #E30512;
-			color: white;
-			padding: 15px 10px 10px 0;
-			font-size: 30px;
-			border: none;
-			cursor: pointer;
-			float: right;
+		    background-color: #E30512;
+		    color: white;
+		    padding: 15px 10px 10px 0;
+		    font-size: 30px;
+		    border: none;
+		    cursor: pointer;
+		    float: right;
 		}
 		
 		.ordeDrop p {
-			width: 83%;
-			box-sizing: border-box;
-			display: block;
-			float: left;
-			margin: 0;
-			padding: 0;
-			padding-left: 4%;
+		    width: 83%;
+		    box-sizing: border-box;
+		    display: block;
+		    float: left;
+		    margin: 0;
+		    padding: 0;
+		    padding-left: 4%;
 		}
 		
 		.dropdown {
-			position: relative;
-			display: block;
+		    position: relative;
+		    display: block;
 		}
 		
 		.contentKlacht {
-			margin-top: 70px;
-			padding: 1em 0 1em 1em;
-			width: 100%;
-			display: none;
-			position: absolute;
-			background-color: #E30512;
-			min-width: 160px;
-			overflow: auto;
-			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		    margin-top: 70px;
+		    padding: 1em 0 1em 1em;
+		    width: 100%;
+		    display: none;
+		    position: absolute;
+		    background-color: #E30512;
+		    min-width: 160px;
+		    overflow: auto;
+		    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		}
 		
 		#ordenen ul li {
-			color: black;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
 		}
 		
 		.ordeDrop a:hover {
-			background-color: #E30512
+		    background-color: #E30512
 		}
 		
 		.show {
-			display: block;
+		    display: block;
 		}
 		
 		a {
-			text-decoration: none;
-			color: black;
+		    text-decoration: none;
+		    color: black;
 		}
 		
 		.ordeDrop {
-			position: relative;
-			background-color: #E30512;
-			height: 4.3em;
-			line-height: 4.3em;
-			color: white;
-			z-index: 99999;
+		    position: relative;
+		    background-color: #E30512;
+		    height: 4.3em;
+		    line-height: 4.3em;
+		    color: white;
+		    z-index: 99999;
 		}
 		
 		#ordenen {
-			position: relative;
-			list-style: none;
-			line-height: 2em;
+		    position: relative;
+		    list-style: none;
+		    line-height: 2em;
 		}
 		
 		#klachtenlijst,
 		#mijnklachtenlijst,
 		#suggestielijst {
-			position: relative;
-			height: 5em;
-			line-height: 5em;
-			font-weight: bold;
-			list-style: none;
+		    position: relative;
+		    height: 5em;
+		    line-height: 5em;
+		    font-weight: bold;
+		    list-style: none;
 		}
 		
 		#klachtenlijst img,
 		#mijnklachtenlijst img,
 		#suggestielijst img {
-			width: 1.3em;
-			float: right;
-			height: 5em;
-			padding-right: 1.5em;
+		    width: 1.3em;
+		    float: right;
+		    height: 5em;
+		    padding-right: 1.5em;
 		}
 		
 		#klachtenlijst span,
 		#mijnklachtenlijst span,
 		#suggestielijst span {
-			font-weight: normal;
-			font-size: 0.7em;
-			color: darkgrey;
-			margin-right: 3%;
-			padding-left: 3%;
+		    font-weight: normal;
+		    font-size: 0.7em;
+		    color: darkgrey;
+		    margin-right: 3%;
+		    padding-left: 3%;
 		}
 		
 		.add {
-			background-color: #3C3C3B;
-			width: 4em;
-			height: 4em;
-			border-radius: 3em;
-			position: fixed;
-			margin-left: 75%;
-			top: 85%;
-			box-shadow: 4px 4px 15px black;
+		    background-color: #3C3C3B;
+		    width: 4em;
+		    height: 4em;
+		    border-radius: 3em;
+		    position: fixed;
+		    margin-left: 75%;
+		    top: 85%;
+		    box-shadow: 4px 4px 15px black;
 		}
 		
 		.backto {
-			background-color: #E30512;
-			width: 90%;
-			height: 50px;
-			position: fixed;
-			margin-left: 5%;
-			margin-right: 5%;
-			top: 70%;
-			border-radius: 8px;
+		    background-color: #E30512;
+		    width: 90%;
+		    height: 50px;
+		    position: fixed;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		    top: 70%;
+		    border-radius: 8px;
 		}
 		
 		.add button {
-			color: white;
-			border: 0;
-			background: none;
-			font-size: 4em;
-			line-height: 0.95em;
+		    color: white;
+		    border: 0;
+		    background: none;
+		    font-size: 4em;
+		    line-height: 0.95em;
 		}
 		
 		.backto button {
-			color: white;
-			border: 0;
-			background: none;
-			font-size: 3em;
-			text-align: center;
+		    color: white;
+		    border: 0;
+		    background: none;
+		    font-size: 3em;
+		    text-align: center;
 		}
 		
 		.backtop {
-			font-size: 25px;
-			line-height: 2em;
+		    font-size: 25px;
+		    line-height: 2em;
 		}
 		
 		.bedankt {
-			font-size: 1.7em;
-			text-align: center;
-			font-weight: normal;
-			padding: 5%;
+		    font-size: 1.7em;
+		    text-align: center;
+		    font-weight: normal;
+		    padding: 5%;
 		}
 		
 		#grijs {
-			background-color: #E8E8E8;
+		    background-color: #E8E8E8;
 		}
 		
 		.grijzeKleur {
-			text-decoration: none;
-			background-color: #E8E8E8;
+		    text-decoration: none;
+		    background-color: #E8E8E8;
 		}
-		/* HOMEPAGINA (Jany)*/
-		/*
-
-@font-face {
-  font-family: Roboto;
-
-  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal; }
-
- 
-@font-face {
-  font-family: 'Roboto Bold';
-  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal; }
-*/
+		/* HOMEPAGINA */
 		
 		@media screen and (max-width: 750px) {
-			.homepagina {
-				font-family: Roboto;
-				background-color: #CCCCCC;
-				margin: 0;
-				padding: 0;
-			}
-			.homepagina header {
-				margin-top: 10%;
-				text-align: center;
-			}
-			.homepagina .logoFix {
-				width: 70%;
-			}
-			.homepagina .iconDeel {
-				height: 350px;
-				box-sizing: border-box;
-				padding: 9%;
-			}
-			.homepagina .ulIcons {
-				width: 100%;
-				margin: 0;
-				padding: 0;
-			}
-			.homepagina .ulIcons li {
-				width: 46%;
-				height: 150px;
-				list-style: none;
-				background-color: #3C3C3B;
-				color: white;
-				text-align: center;
-				display: inline;
-				float: left;
-				margin: 2%;
-				font-weight: bolder;
-				letter-spacing: 1px;
-				font-family: 'Roboto Bold'
-			}
-			.homepagina .ulIcons li img {
-				width: 67%;
-				margin-top: 9%;
-			}
-			.homepagina .ulIcons .profielLi {
-				background-color: white;
-				color: #3C3C3B;
-				border-radius: 30px 0 0 0;
-			}
-			.homepagina .deelButton {
-				text-align: center
-			}
-			.homepagina .bezoekEHB {
-				width: 79%;
-				background-color: #E30512;
-				border: none;
-				height: 50px;
-				color: white;
-				font-weight: bold;
-				font-size: 1.2em;
-				margin-top: 1.5%;
-			}
-			.homepagina .lijnenOnderaan {
-				height: 20px;
-				margin-top: 20%;
-				text-align: center;
-			}
-			.homepagina .lijnenOnderaan li {
-				list-style: none;
-				float: left;
-				text-indent: -9999px;
-				margin-bottom: 2%;
-			}
-			.homepagina .lijnenOnderaan ul {
-				margin-top: 10px;
-				padding: 0;
-			}
-			.homepagina .rood {
-				width: 45%;
-				background-color: #E30512;
-			}
-			.homepagina .donkerGrijs {
-				width: 30%;
-				background-color: #3C3C3B;
-			}
-			.homepagina .grijs {
-				background-color: #E8E8E8;
-				width: 25%;
-			}
-			.homepagina footer {
-				height: 60px;
-			}
+		    .homepagina {
+		        font-family: Roboto;
+		        background-color: #CCCCCC;
+		        margin: 0;
+		        padding: 0;
+		    }
+		    .homepagina header {
+		        margin-top: 10%;
+		        text-align: center;
+		    }
+		    .homepagina .logoFix {
+		        width: 70%;
+		    }
+		    .homepagina .iconDeel {
+		        height: 350px;
+		        box-sizing: border-box;
+		        padding: 9%;
+		    }
+		    .homepagina .ulIcons {
+		        width: 100%;
+		        margin: 0;
+		        padding: 0;
+		    }
+		    .homepagina .ulIcons li {
+		        width: 46%;
+		        height: 150px;
+		        list-style: none;
+		        background-color: #3C3C3B;
+		        color: white;
+		        text-align: center;
+		        display: inline;
+		        float: left;
+		        margin: 2%;
+		        font-weight: bolder;
+		        letter-spacing: 1px;
+		        font-family: 'Roboto Bold'
+		    }
+		    .homepagina .ulIcons li img {
+		        width: 67%;
+		        margin-top: 9%;
+		    }
+		    .homepagina .ulIcons .profielLi {
+		        background-color: white;
+		        color: #3C3C3B;
+		        border-radius: 30px 0 0 0;
+		    }
+		    .homepagina .deelButton {
+		        text-align: center
+		    }
+		    .homepagina .bezoekEHB {
+		        width: 79%;
+		        background-color: #E30512;
+		        border: none;
+		        height: 50px;
+		        color: white;
+		        font-weight: bold;
+		        font-size: 1.2em;
+		        margin-top: 1.5%;
+		    }
+		    .homepagina .lijnenOnderaan {
+		        height: 20px;
+		        margin-top: 20%;
+		        text-align: center;
+		    }
+		    .homepagina .lijnenOnderaan li {
+		        list-style: none;
+		        float: left;
+		        text-indent: -9999px;
+		        margin-bottom: 2%;
+		    }
+		    .homepagina .lijnenOnderaan ul {
+		        margin-top: 10px;
+		        padding: 0;
+		    }
+		    .homepagina .rood {
+		        width: 45%;
+		        background-color: #E30512;
+		    }
+		    .homepagina .donkerGrijs {
+		        width: 30%;
+		        background-color: #3C3C3B;
+		    }
+		    .homepagina .grijs {
+		        background-color: #E8E8E8;
+		        width: 25%;
+		    }
+		    .homepagina footer {
+		        height: 60px;
+		    }
 		}
 		
 		@media screen and (max-width: 415px) {
-			.homepagina .lijnenOnderaan {
-				margin-top: 27%;
-			}
+		    .homepagina .lijnenOnderaan {
+		        margin-top: 27%;
+		    }
 		}
 		
 		@media screen and (max-width: 412px) {
-			.homepagina .lijnenOnderaan {
-				margin-top: 10%;
-			}
+		    .homepagina .lijnenOnderaan {
+		        margin-top: 10%;
+		    }
 		}
 		
 		@media screen and (max-width: 360px) {
-			.homepagina .lijnenOnderaan {
-				margin-top: 13%;
-			}
+		    .homepagina .lijnenOnderaan {
+		        margin-top: 13%;
+		    }
 		}
 		
 		@media screen and (max-width: 321px) {
-			.homepagina .lijnenOnderaan {
-				margin-top: 10%;
-			}
-			.homepagina .ulIcons li {
-				width: 46%;
-				height: 130px;
-			}
-			.homepagina .iconDeel {
-				height: 302px;
-				box-sizing: border-box;
-				padding: 6%;
-			}
+		    .homepagina .lijnenOnderaan {
+		        margin-top: 10%;
+		    }
+		    .homepagina .ulIcons li {
+		        width: 46%;
+		        height: 130px;
+		    }
+		    .homepagina .iconDeel {
+		        height: 302px;
+		        box-sizing: border-box;
+		        padding: 6%;
+		    }
 		}
-		/* ACCOUNT (Jany)*/
-		/*
-
-@font-face {
-  font-family: Roboto;
-
-  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal; }
- 
- 
-@font-face {
-  font-family: 'Roboto Bold';
-  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal; }
-*/
+		/* ACCOUNT */
 		
 		body {
-			font-family: roboto;
+		    font-family: roboto;
 		}
 		
 		.accountPagina .detailAccount {
-			height: 400px;
+		    height: 400px;
 		}
 		
 		.accountPagina .detailAccount a {
-			text-decoration: none;
-			color: black;
+		    text-decoration: none;
+		    color: black;
 		}
 		
 		.accountPagina .lijnenOnderaan {
-			height: 20px;
-			margin-top: 28%;
-			text-align: center;
+		    height: 20px;
+		    margin-top: 28%;
+		    text-align: center;
 		}
 		
 		.accountPagina .lijnenOnderaan li {
-			list-style: none;
-			float: left;
-			text-indent: -9999px;
-			margin-bottom: 2%;
+		    list-style: none;
+		    float: left;
+		    text-indent: -9999px;
+		    margin-bottom: 2%;
 		}
 		
 		.accountPagina .lijnenOnderaan ul {
-			margin-top: 10px;
-			padding: 0;
+		    margin-top: 10px;
+		    padding: 0;
 		}
 		
 		.accountPagina .rood {
-			width: 45%;
-			background-color: #E30512;
+		    width: 45%;
+		    background-color: #E30512;
 		}
 		
 		.accountPagina .donkerGrijs {
-			width: 30%;
-			background-color: #3C3C3B;
+		    width: 30%;
+		    background-color: #3C3C3B;
 		}
 		
 		.accountPagina .grijs {
-			background-color: #E8E8E8;
-			width: 25%;
+		    background-color: #E8E8E8;
+		    width: 25%;
 		}
 		
 		.accountPagina footer {
-			height: 60px;
+		    height: 60px;
 		}
 		
 		.accountPagina .detailAccount li,
 		.detailVeranderCampus li {
-			height: 40px;
-			border-bottom: 2px solid grey;
-			list-style: none;
+		    height: 40px;
+		    border-bottom: 2px solid grey;
+		    list-style: none;
 		}
 		
 		.accountPagina .detailAccount li p,
 		.detailVeranderCampus li p {
-			margin: 5% 0 5% 3%;
+		    margin: 5% 0 5% 3%;
 		}
 		
 		.accountPagina .taal,
 		.campus {
-			width: 60%;
-			float: left;
+		    width: 60%;
+		    float: left;
 		}
 		
 		.accountPagina .algemeneInstellingenVerander select {
-			float: right;
-			border: 2px solid grey;
-			width: 30%;
-			float: left;
-			margin-top: 5%;
+		    float: right;
+		    border: 2px solid grey;
+		    width: 30%;
+		    float: left;
+		    margin-top: 5%;
 		}
 		
 		.accountPagina .algemeneInstellingenVerander,
 		.test {
-			padding-bottom: 5%;
+		    padding-bottom: 5%;
 		}
 		
 		#pijl {
-			width: 2em;
-			padding-left: 3%;
+		    width: 2em;
+		    padding-left: 3%;
 		}
 		
 		.accountPagina .detailVeranderCampus li p {
-			width: 60%;
+		    width: 60%;
 		}
 		
 		.accountPagina .check {
-			display: none;
-			margin-top: 5%;
+		    display: none;
+		    margin-top: 5%;
 		}
 		
 		.accountPagina .checkKaai {
-			display: block;
+		    display: block;
 		}
 		
 		.accountPagina .test p a {
-			text-decoration: none;
-			color: black;
+		    text-decoration: none;
+		    color: black;
 		}
 		/* Beschrijving klachten en suggesties */
 		
 		#klachtenmeldingCSS #contentDiv {
-			margin: 5% 10%;
+		    margin: 5% 10%;
 		}
 		
 		#klachtenmeldingCSS h1,
 		#klachtenmeldingCSS h2 {
-			margin-bottom: 3%;
+		    margin-bottom: 3%;
 		}
 		
 		#klachtenmeldingCSS h2 {
-			font-size: 1.1em;
-			font-weight: 400;
+		    font-size: 1.1em;
+		    font-weight: 400;
 		}
 		
 		#klachtenmeldingCSS h3 {
-			font-size: 1em;
-			color: #bebebe;
-			margin-bottom: 10%;
-			font-weight: 400;
+		    font-size: 1em;
+		    color: #bebebe;
+		    margin-bottom: 10%;
+		    font-weight: 400;
 		}
 		
 		#klachtenmeldingCSS #pbeschrijving,
 		#klachtenmeldingCSS #foto {
-			margin-bottom: 10%;
+		    margin-bottom: 10%;
 		}
 		
 		#klachtenmeldingCSS .buttonTerug {
-			background-color: #E30512;
-			border: none;
-			color: white;
-			padding: 15px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 0;
-			border-radius: 8px;
-			clear: both;
-			margin-bottom: 5%;
+		    background-color: #E30512;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 0;
+		    border-radius: 8px;
+		    clear: both;
+		    margin-bottom: 5%;
 		}
 		
 		#klachtenmeldingCSS #foto {
-			width: 80%;
+		    width: 80%;
 		}
 		
 		#klachtenmeldingCSS #circle {
-			width: 1em;
-			float: left;
-			margin-left: 1em;
+		    width: 1em;
+		    float: left;
+		    margin-left: 1em;
 		}
 		
 		#klachtenmeldingCSS #pstatus {
-			float: left;
-			margin-bottom: 5%;
+		    float: left;
+		    margin-bottom: 5%;
 		}
 		
 		#klachtenmeldingCSS button a {
-			color: white;
-			text-decoration: none;
+		    color: white;
+		    text-decoration: none;
 		}
 		/* FORMULIER KLACHT */
+		
+		.formulierKlacht .clearfix:after {
+		    clear: both;
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    visibility: hidden;
+		}
+		
+		.klachtFormulier main {
+		    padding-left: 20px;
+		    padding-right: 20px;
+		}
+		
+		.klachtFormulier a {
+		    text-decoration: none;
+		}
+		
+		.klachtFormulier #annuleerknop {
+		    width: 50px;
+		    height: 50px;
+		    margin: -25px 0px 0px 75%;
+		    position: absolute;
+		    z-index: 999999;
+		}
+		
+		.klachtFormulier #fotoToevoegen {
+		    width: 70px;
+		    height: 70px;
+		}
+		
+		.klachtFormulier select,
+		.klachtFormulier input,
+		.klachtFormulier p {
+		    font-family: 'Roboto';
+		    display: inline-block;
+		    margin: 10px 0px;
+		    font-size: 1.1em;
+		}
+		
+		.klachtFormulier form {
+		    margin-top: 20px;
+		    padding-top: 30px;
+		}
+		
+		.klachtFormulier #campus,
+		.klachtFormulier #gebouw,
+		.klachtFormulier #lokalen,
+		.klachtFormulier #onderwerp {
+		    border: 2px solid black;
+		    border-top: none;
+		    text-align: center;
+		    margin-bottom: 35px;
+		}
+		
+		.klachtFormulier #beschrijving {
+		    border: 2px solid black;
+		    border-top: none;
+		    padding-left: 10px;
+		    padding-bottom: 7px;
+		    margin-bottom: 35px;
+		}
+		
+		.klachtFormulier #gebouw,
+		.klachtFormulier #lokalen {
+		    display: inline-block;
+		    width: 45.5%;
+		}
+		
+		.klachtFormulier #campus {
+		    text-align: left;
+		    padding-left: 10px;
+		}
+		
+		.klachtFormulier #campusTekst {
+		    width: 70%;
+		}
+		
+		.klachtFormulier #onderwerp {
+		    text-align: left;
+		    padding-left: 10px;
+		}
+		
+		.klachtFormulier #gebouw {
+		    text-align: left;
+		    padding-left: 10px;
+		    width: 45.5%;
+		}
+		
+		.klachtFormulier #gebouw p,
+		.klachtFormulier #lokalen p,
+		.klachtFormulier #campus p,
+		.klachtFormulier #onderwerp p {
+		    margin-right: 10px;
+		}
+		
+		.klachtFormulier #beschrijving p {
+		    margin-bottom: 10px;
+		}
+		
+		.klachtFormulier #beschrijving {
+		    margin-bottom: 20px;
+		}
+		
+		.klachtFormulier #beschrijving textarea {
+		    font-family: 'Roboto';
+		    font-size: 1em;
+		    width: 96%;
+		    height: 5em;
+		}
+		
+		.klachtFormulier button {
+		    background-color: rgb(227, 6, 19);
+		    padding: 15px 32px;
+		    border: none;
+		    font-size: 1.1em;
+		    border-radius: 8px;
+		    color: white;
+		    display: inline;
+		}
+		
+		.klachtFormulier #gebouw {
+		    margin-right: 8px;
+		}
+		
+		.klachtFormulier #onderwerp {
+		    margin-bottom: 25px;
+		}
+		
+		.klachtFormulier select {
+		    border: none;
+		}
+		
+		.klachtFormulier .fotoUploaden {
+		    margin-left: 90px;
+		    display: inline;
+		}
+		
+		.klachtFormulier .fotoUploaden input {
+		    display: none;
+		}
+		
+		.klachtFormulier .fotoToevoegen {
+		    position: relative;
+		}
+		
+		.klachtFormulier #beschrijvingTekst {
+		    max-width: 96%;
+		}
+		
+		.klachtFormulier .linkVerzenden {
+		    text-decoration: none;
+		    color: white;
+		    padding: 15px 0px;
+		    cursor: pointer;
+		}
+		
+		@media screen and (max-width: 373px) {
+		    .klachtFormulier #gebouw,
+		    .klachtFormulier #lokalen {
+		        width: 46%;
+		    }
+		    .klachtFormulier select,
+		    .klachtFormulier input,
+		    .klachtFormulier p {
+		        font-size: 0.9em;
+		    }
+		    .klachtFormulier button {
+		        margin-right: 40px;
+		    }
+		}
 		/* FORMULIER SUGGESTIE */
+		
+		.formulierSuggestie .clearfix:after {
+		    clear: both;
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    visibility: hidden;
+		}
+		
+		.formulierSuggestie main {
+		    padding-left: 20px;
+		    padding-right: 20px;
+		}
+		
+		.formulierSuggestie #annuleerknop {
+		    width: 50px;
+		    height: 50px;
+		    margin: -25px 0px 0px 75%;
+		    position: absolute;
+		    z-index: 999999;
+		}
+		
+		.formulierSuggestie select,
+		.formulierSuggestie input,
+		.formulierSuggestie p {
+		    font-family: 'Roboto';
+		    display: inline-block;
+		    margin: 10px 0px;
+		    font-size: 1.1em;
+		}
+		
+		.formulierSuggestie form {
+		    margin-top: 20px;
+		    padding-top: 30px;
+		}
+		
+		.formulierSuggestie #campus,
+		.formulierSuggestie #onderwerp {
+		    border: 2px solid black;
+		    border-top: none;
+		    text-align: center;
+		    margin-bottom: 35px;
+		}
+		
+		.formulierSuggestie #campus p,
+		.formulierSuggestie #onderwerp p {
+		    margin-right: 10px;
+		}
+		
+		.formulierSuggestie #onderwerp input {
+		    width: 170px;
+		}
+		
+		.formulierSuggestie #beschrijving p {
+		    margin-bottom: 10px;
+		}
+		
+		.formulierSuggestie #beschrijving {
+		    border: 2px solid black;
+		    border-top: none;
+		    padding-left: 10px;
+		    padding-bottom: 7px;
+		    margin-bottom: 35px;
+		}
+		
+		.formulierSuggestie #beschrijving textarea {
+		    font-family: 'Roboto';
+		    font-size: 1em;
+		    width: 96%;
+		    height: 5em;
+		}
+		
+		.formulierSuggestie button {
+		    background-color: rgb(227, 6, 19);
+		    padding: 15px 32px;
+		    font-size: 1.1em;
+		    border-radius: 8px;
+		    color: white;
+		    border: none;
+		}
+		
+		.formulierSuggestie select {
+		    border: none;
+		}
+		
+		.formulierSuggestie #beschrijvingTekst {
+		    max-width: 96%;
+		}
+		
+		@media screen and (max-width: 373px) {
+		    .formulierSuggestie select,
+		    .formulierSuggestie input,
+		    .formulierSuggestie p {
+		        font-size: 0.9em;
+		    }
+		}
 		/* KLACHTENMELDINGEN */
 		/* NOODGEVALLEN */
-		/* AXEL */
-    @media screen and (max-width:1440px) {
-  
-    .handleiding {
-        margin: 0;
-        background-color: rgb(204, 204, 204);
-        overflow: auto;
-    }
-    .handleiding #tekst {
-        width: 20em;
-        height: 5em;
-    }
-    .handleiding #tekst p {
-        font-family: 'Roboto bold';
-        font-size: 0.8em;
-        padding: 1em 1.2em;
-        text-align: center;
-        margin: 0;
-    }
-    .handleiding .Slider {
-        display: none
-    }
-    .handleiding #container {
-        max-width: 20em;
-        position: relative;
-        margin: auto;
-        background-color: rgb(204, 204, 204);
-    }
-    .handleiding #fotoContainer {
-        width: 100%;
-        height: 28.5em;
-        overflow: hidden;
-        border: 2px solid white;
-    }
-    .handleiding #fotoContainer img {
-        width: 100%;
-        height: auto;
-    }
-    .handleiding .Vorig,
-    .handleiding .Volgende {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 1em;
-        margin-top: 5em;
-        color: white;
-        font-weight: bold;
-        font-size: 1em;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    .handleiding .Volgende {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    .handleiding .Vorig:hover,
-    .handleiding .Volgende:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    .handleiding #doos {
-        position: fixed;
-        bottom: 0;
-        background-color: aliceblue;
-    }
-    .handleiding #dots {
-        display: block;
-        box-sizing: border-box;
-        float: left;
-        margin-top: 0.9em;
-        padding-bottom: 0.8em;
-        margin-left: 8em;
-    }
-    .handleiding #overslaan {
-        display: block;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 1em;
-        margin-left: 19.5em;
-    }
-    .handleiding #overslaan a {
-        font-family: 'Roboto Bold';
-        text-align: center;
-        text-decoration: none;
-        color: black;
-    }
-    .handleiding .Aanwijzingen {
-        cursor: pointer;
-        height: 1em;
-        width: 1em;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    .handleiding .Aanwijzingen:hover {
-        background-color: red;
-    }
-    .handleiding .active {
-        background-color: black;
-    }
-    /*Iphone 6 plus*/
-    @media screen and (max-width:414px) {
-        .handleiding #overslaan {
-            padding: 1em;
-            margin-left: 22em;
-        }
-    }
-    @media screen and (max-width:376px) {
-        .handleiding #overslaan {
-            padding: 1em;
-            margin-left: 20em;
-        }
-    }
-    @media screen and (max-width:360px) {
-        .handleiding #overslaan {
-            padding: 3.5% 0;
-            margin-left: 19.5em;
-            padding-right: 1em;
-        }
-    }
-    @media screen and (max-width:320px) {
-        .handleiding #fotoContainer {
-            width: 14.5em;
-            height: 20.5em;
-            margin: 0 auto;
-        }
-        .handleiding #overslaan {
-            padding: 1em 0;
-            margin-left: 16.5em;
-            padding-right: 1.5em;
-        }
-        .handleiding #dots {
-            padding: 0.5em;
-            margin-left: 4.5em;
-        }
-        .handleiding .Aanwijzingen {
-            height: 1em;
-            width: 1em;
-        }
-    }
-		/* JANY */
+		
+		.noodgevallen h2 {
+		    font-family: 'Roboto';
+		    font-weight: 600;
+		    font-size: 1.3em;
+		    margin: 25px 0px;
+		}
+		
+		.noodgevallen p {
+		    font-family: 'Roboto';
+		    font-weight: 400;
+		    font-size: 1em;
+		    margin: 30px 0px;
+		}
+		
+		.noodgevallen article {
+		    margin: auto;
+		    padding: 0px 15px;
+		    overflow: auto;
+		}
+		
+		.noodgevallen article img {
+		    width: 10%;
+		    height: 10%;
+		    float: right;
+		}
+		
+		.noodgevallen .kantoor {
+		    display: inline;
+		}
+		
+		.noodgevallen .kantoor p {
+		    margin: 15px 0px;
+		}
+		
+		.noodgevallen .noodnummer {
+		    font-weight: 700;
+		    width: 45%;
+		    float: right;
+		}
+		
+		.noodgevallen .kantooruren {
+		    width: 45%;
+		    margin-right: 0px;
+		    float: left;
+		}
+		
+		.noodgevallen .uitlegnummer {
+		    margin-top: 0;
+		    margin-bottom: 40px;
+		    padding-top: 120px;
+		}
+		
+		.noodgevallen #tweedenoodgeval {
+		    background-color: rgb(204, 204, 204);
+		}
+		
+		@media screen and (max-width: 370px) {
+		    h1 {
+		        font-size: 1.1em;
+		    }
+		    p {
+		        font-size: 0.9em;
+		    }
+		    .noodnummer {
+		        width: 30%;
+		    }
+		    .kantooruren {
+		        width: 50%;
+		    }
+		}
+		
+		@media screen and (max-width: 415px) {
+		    .lijnenOnderaan {
+		        margin-top: 27%;
+		    }
+		}
+		
+		@media screen and (max-width: 412px) {
+		    .lijnenOnderaan {
+		        margin-top: 10%;
+		    }
+		}
+		
+		@media screen and (max-width: 360px) {
+		    .lijnenOnderaan {
+		        margin-top: 13%;
+		    }
+		}
+		
+		@media screen and (max-width: 321px) {
+		    .lijnenOnderaan {
+		        margin-top: 10%;
+		    }
+		    /* HANDLEIDING AXEL */
+		    @media screen and (max-width:1440px) {
+		        .handleiding {
+		            margin: 0;
+		            background-color: rgb(204, 204, 204);
+		            overflow: auto;
+		        }
+		        .handleiding #tekst {
+		            width: 20em;
+		            height: 5em;
+		        }
+		        .handleiding #tekst p {
+		            font-family: 'Roboto bold';
+		            font-size: 0.8em;
+		            padding: 1em 1.2em;
+		            text-align: center;
+		            margin: 0;
+		        }
+		        .handleiding .Slider {
+		            display: none
+		        }
+		        .handleiding #container {
+		            max-width: 20em;
+		            position: relative;
+		            margin: auto;
+		            background-color: rgb(204, 204, 204);
+		        }
+		        .handleiding #fotoContainer {
+		            width: 100%;
+		            height: 28.5em;
+		            overflow: hidden;
+		            border: 2px solid white;
+		        }
+		        .handleiding #fotoContainer img {
+		            width: 100%;
+		            height: auto;
+		        }
+		        .handleiding .Vorig,
+		        .handleiding .Volgende {
+		            cursor: pointer;
+		            position: absolute;
+		            top: 50%;
+		            width: auto;
+		            padding: 1em;
+		            margin-top: 5em;
+		            color: white;
+		            font-weight: bold;
+		            font-size: 1em;
+		            transition: 0.6s ease;
+		            border-radius: 0 3px 3px 0;
+		            background-color: rgba(0, 0, 0, 0.8);
+		        }
+		        .handleiding .Volgende {
+		            right: 0;
+		            border-radius: 3px 0 0 3px;
+		        }
+		        .handleiding .Vorig:hover,
+		        .handleiding .Volgende:hover {
+		            background-color: rgba(0, 0, 0, 0.8);
+		        }
+		        .handleiding #doos {
+		            position: fixed;
+		            bottom: 0;
+		            background-color: aliceblue;
+		        }
+		        .handleiding #dots {
+		            display: block;
+		            box-sizing: border-box;
+		            float: left;
+		            margin-top: 0.9em;
+		            padding-bottom: 0.8em;
+		            margin-left: 8em;
+		        }
+		        .handleiding #overslaan {
+		            display: block;
+		            box-sizing: border-box;
+		            margin: 0;
+		            padding: 1em;
+		            margin-left: 19.5em;
+		        }
+		        .handleiding #overslaan a {
+		            font-family: 'Roboto Bold';
+		            text-align: center;
+		            text-decoration: none;
+		            color: black;
+		        }
+		        .handleiding .Aanwijzingen {
+		            cursor: pointer;
+		            height: 1em;
+		            width: 1em;
+		            margin: 0 2px;
+		            background-color: #bbb;
+		            border-radius: 50%;
+		            display: inline-block;
+		            transition: background-color 0.6s ease;
+		        }
+		        .handleiding .Aanwijzingen:hover {
+		            background-color: red;
+		        }
+		        .handleiding .active {
+		            background-color: black;
+		        }
+		        /*Iphone 6 plus*/
+		        @media screen and (max-width:414px) {
+		            .handleiding #overslaan {
+		                padding: 1em;
+		                margin-left: 22em;
+		            }
+		        }
+		        @media screen and (max-width:376px) {
+		            .handleiding #overslaan {
+		                padding: 1em;
+		                margin-left: 20em;
+		            }
+		        }
+		        @media screen and (max-width:360px) {
+		            .handleiding #overslaan {
+		                padding: 3.5% 0;
+		                margin-left: 19.5em;
+		                padding-right: 1em;
+		            }
+		        }
+		        @media screen and (max-width:320px) {
+		            .handleiding #fotoContainer {
+		                width: 14.5em;
+		                height: 20.5em;
+		                margin: 0 auto;
+		            }
+		            .handleiding #overslaan {
+		                padding: 1em 0;
+		                margin-left: 16.5em;
+		                padding-right: 1.5em;
+		            }
+		            .handleiding #dots {
+		                padding: 0.5em;
+		                margin-left: 4.5em;
+		            }
+		            .handleiding .Aanwijzingen {
+		                height: 1em;
+		                width: 1em;
+		            }
+		        }
