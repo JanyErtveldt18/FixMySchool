@@ -56,11 +56,17 @@ form{
     margin-bottom: 10px;
 }
 #beschrijving{
-    margin-bottom: 20px;
+    border: 2px solid black;
+    border-top: none;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 35px;
 }
 #beschrijving textarea{
     font-family: 'Roboto';
     font-size: 1em;
+    width: 96%;
+    height: 5em;
 }
 button{
     background-color: rgb(227,6,19);
@@ -72,7 +78,9 @@ button{
 select{
     border: none;
 }
-
+#beschrijvingTekst{
+  max-width: 96%;
+}
 @media screen and (max-width: 373px){
     select, input, p{
     font-size: 0.9em;
