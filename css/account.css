@@ -11,72 +11,72 @@
   src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal; }
-
+ 
 body{
   font-family: roboto;
 }
 
-.detailAccount{
+.accountPagina .detailAccount{
   height: 400px;
 } 
-.detailAccount a{
+.accountPagina .detailAccount a{
   text-decoration: none;
   color: black;
 }
-  .lijnenOnderaan{
+ .accountPagina .lijnenOnderaan{
     height: 20px;
     margin-top: 28%;
     text-align: center;
   }
-  .lijnenOnderaan li{
+  .accountPagina .lijnenOnderaan li{
     list-style: none;
     float: left;
     text-indent: -9999px;
     margin-bottom: 2%;
   }
-  .lijnenOnderaan ul{
+  .accountPagina .lijnenOnderaan ul{
     margin-top: 10px;
     padding: 0;
   }
-  .rood{
+  .accountPagina .rood{
     width: 45%;
     background-color: #E30512;
   }
-  .donkerGrijs{
+ .accountPagina  .donkerGrijs{
     width: 30%;
     background-color: #3C3C3B;
   }
-  .grijs{
+  .accountPagina .grijs{
     background-color: #E8E8E8;
     width: 25%;
   }
-  footer{
+ .accountPagina footer{
     height: 60px;
   }
 
-.detailAccount li, .detailVeranderCampus li{
+.accountPagina .detailAccount li, .detailVeranderCampus li{
   
   height: 40px;
   border-bottom: 2px solid grey;
   list-style: none;
 }
 
-.detailAccount li p, .detailVeranderCampus li p{
+.accountPagina .detailAccount li p, .detailVeranderCampus li p{
   margin: 5% 0 5% 3%;
 }
-.taal ,.campus{
+.accountPagina .taal ,.campus{
   width: 60%;
   float: left;
 }
 
-.algemeneInstellingenVerander select{
+.accountPagina .algemeneInstellingenVerander select{
   float: right;
   border: 2px solid grey;
   width: 30%;
   float: left;
   margin-top: 5%;
 }
-.algemeneInstellingenVerander , .test{
+.accountPagina .algemeneInstellingenVerander , .test{
   padding-bottom: 5%;
 }
 
@@ -85,20 +85,20 @@ body{
 	padding-left: 3%;
 }
 
-.detailVeranderCampus li p{
+.accountPagina .detailVeranderCampus li p{
   width: 60%;
 }
 
-.check{
+.accountPagina .check{
   display: none;
   margin-top: 5%;
 }
 
-.checkKaai{
+.accountPagina .checkKaai{
   display: block;
 }
 
-.test p a{
+.accountPagina .test p a{
   text-decoration: none;
   color: black;
 }

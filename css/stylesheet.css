@@ -273,9 +273,263 @@ a
   background-color: #E8E8E8;
 }
 
+/* HOMEPAGINA (Jany)*/
+/*
 
-/* ACCOUNT */
+@font-face {
+  font-family: Roboto;
 
+  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+ 
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+*/
+
+@media screen and (max-width: 750px){
+  
+  .homepagina{
+    font-family: Roboto;
+    background-color: #CCCCCC ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homepagina header{
+    margin-top: 10%;
+    text-align: center;
+  }
+  .homepagina .logoFix{
+    width: 70%;
+  }
+ .homepagina .iconDeel{
+    height: 350px;
+    box-sizing: border-box;
+    padding: 9%;
+  }
+  .homepagina .ulIcons{
+    width: 100%;
+    margin:0;
+    padding: 0;
+  }
+ .homepagina .ulIcons li{
+    width: 46%;
+    height: 150px;
+    list-style: none;
+    background-color: #3C3C3B;
+    color: white;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin: 2%;
+    font-weight: bolder;
+    letter-spacing: 1px; 
+   font-family: 'Roboto Bold'
+  }
+  
+.homepagina .ulIcons li img{
+    width: 67%;
+    margin-top: 9%;
+  }
+  
+.homepagina .ulIcons .profielLi{
+    background-color: white;
+    color: #3C3C3B;
+    border-radius: 30px 0 0 0;
+  }
+  
+.homepagina .deelButton{
+    text-align: center
+  }
+  .homepagina .bezoekEHB{
+    width: 79%;
+    background-color: #E30512;
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 1.5%;
+  }
+  
+ .homepagina .lijnenOnderaan{
+    height: 20px;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .homepagina .lijnenOnderaan li{
+    list-style: none;
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 2%;
+  }
+  .homepagina .lijnenOnderaan ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .homepagina .rood{
+    width: 45%;
+    background-color: #E30512;
+  }
+  .homepagina .donkerGrijs{
+    width: 30%;
+    background-color: #3C3C3B;
+  }
+  .homepagina .grijs{
+    background-color: #E8E8E8;
+    width: 25%;
+  }
+  .homepagina footer{
+    height: 60px;
+  }
+  
+}
+
+@media screen and (max-width: 415px){
+.homepagina .lijnenOnderaan{
+    margin-top: 27%;
+  }
+}
+@media screen and (max-width: 412px){
+.homepagina .lijnenOnderaan{
+    margin-top: 10%;
+  }
+  
+@media screen and (max-width: 360px){
+.homepagina .lijnenOnderaan{
+    margin-top: 13%;
+  }
+  }
+  @media screen and (max-width: 321px){
+.homepagina .lijnenOnderaan{
+    margin-top: 10%;
+  }
+    .homepagina .ulIcons li{
+    width: 46%;
+    height: 130px;
+   
+  }
+  .homepagina  .iconDeel{
+    height: 302px;
+    box-sizing: border-box;
+    padding: 6%;
+  } 
+}
+
+/* ACCOUNT (Jany)*/
+/*
+
+@font-face {
+  font-family: Roboto;
+
+  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+ 
+ 
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+*/
+ 
+body{
+  font-family: roboto;
+}
+
+.accountPagina .detailAccount{
+  height: 400px;
+} 
+.accountPagina .detailAccount a{
+  text-decoration: none;
+  color: black;
+}
+ .accountPagina .lijnenOnderaan{
+    height: 20px;
+    margin-top: 28%;
+    text-align: center;
+  }
+  .accountPagina .lijnenOnderaan li{
+    list-style: none;
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 2%;
+  }
+  .accountPagina .lijnenOnderaan ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .accountPagina .rood{
+    width: 45%;
+    background-color: #E30512;
+  }
+ .accountPagina  .donkerGrijs{
+    width: 30%;
+    background-color: #3C3C3B;
+  }
+  .accountPagina .grijs{
+    background-color: #E8E8E8;
+    width: 25%;
+  }
+ .accountPagina footer{
+    height: 60px;
+  }
+
+.accountPagina .detailAccount li, .detailVeranderCampus li{
+  
+  height: 40px;
+  border-bottom: 2px solid grey;
+  list-style: none;
+}
+
+.accountPagina .detailAccount li p, .detailVeranderCampus li p{
+  margin: 5% 0 5% 3%;
+}
+.accountPagina .taal ,.campus{
+  width: 60%;
+  float: left;
+}
+
+.accountPagina .algemeneInstellingenVerander select{
+  float: right;
+  border: 2px solid grey;
+  width: 30%;
+  float: left;
+  margin-top: 5%;
+}
+.accountPagina .algemeneInstellingenVerander , .test{
+  padding-bottom: 5%;
+}
+
+#pijl{
+  width: 2em;
+	padding-left: 3%;
+}
+
+.accountPagina .detailVeranderCampus li p{
+  width: 60%;
+}
+
+.accountPagina .check{
+  display: none;
+  margin-top: 5%;
+}
+
+.accountPagina .checkKaai{
+  display: block;
+}
+
+.accountPagina .test p a{
+  text-decoration: none;
+  color: black;
+}
+  
 /* FORMULIER KLACHT */
 
 /* FORMULIER SUGGESTIE */
