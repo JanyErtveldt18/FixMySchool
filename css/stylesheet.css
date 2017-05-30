@@ -312,30 +312,30 @@
 		        font-size: 1.2em;
 		        margin-top: 1.5%;
 		    }
-		    .homepagina .lijnenOnderaan {
+		     .lijnenOnderaan {
 		        height: 20px;
 		        margin-top: 20%;
 		        text-align: center;
 		    }
-		    .homepagina .lijnenOnderaan li {
+		    .lijnenOnderaan li {
 		        list-style: none;
 		        float: left;
 		        text-indent: -9999px;
 		        margin-bottom: 2%;
 		    }
-		    .homepagina .lijnenOnderaan ul {
+		     .lijnenOnderaan ul {
 		        margin-top: 10px;
 		        padding: 0;
 		    }
-		    .homepagina .rood {
+		    .lijnenOnderaan .rood {
 		        width: 45%;
 		        background-color: #E30512;
 		    }
-		    .homepagina .donkerGrijs {
+		    .lijnenOnderaan .donkerGrijs {
 		        width: 30%;
 		        background-color: #3C3C3B;
 		    }
-		    .homepagina .grijs {
+		    .lijnenOnderaan .grijs {
 		        background-color: #E8E8E8;
 		        width: 25%;
 		    }
