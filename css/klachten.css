@@ -155,7 +155,6 @@ a
 
 .add button {
 	color: white;
-    float: left;
 	border: 0;
 	background: none;
 	font-size: 4em;
@@ -190,3 +189,10 @@ a
   text-decoration: none;
   background-color: #E8E8E8;
 }
+
+@media screen and (max-width: 360px) {
+		.add {
+            margin-left: 75%;
+            top: 85%;
+        }
+	}
