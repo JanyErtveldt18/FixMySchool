@@ -106,6 +106,9 @@ select{
 .fotoToevoegen{
     position: relative;
 }
+#beschrijvingTekst{
+  max-width: 96%;
+}
 
 @media screen and (max-width: 373px){
     #gebouw, #lokalen{
