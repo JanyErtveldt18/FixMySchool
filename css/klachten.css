@@ -145,11 +145,11 @@ a
 .backto {
     background-color: #E30512;
 	width: 90%;
-	height: 4em;
+	height: 50px;
 	position: fixed;
 	margin-left: 5%;
     margin-right: 5%;
-	top: 75%;
+	top: 70%;
     border-radius: 8px;
 }
 
@@ -171,7 +171,7 @@ a
 
 .backtop {
     font-size: 25px;
-    line-height: 2.5em;
+    line-height: 2em;
 }
 
 .bedankt {
