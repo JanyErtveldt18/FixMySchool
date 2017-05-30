@@ -1,7 +1,12 @@
 var dt = new Date();
 var kijkenOfDeLocalStorageLeeg = localStorage.getItem("hierWordtHetOnderwerpInOpgeslagen");
-
-if (!kijkenOfDeLocalStorageLeeg) {
+var kijkenOfDeLocalStorageLeeg2 = localStorage.getItem("hierWordtDeCampusInOpgeslagen");
+var kijkenOfDeLocalStorageLeeg3 =  localStorage.getItem("hierWordtHetGebouwInOpgeslagen");
+var kijkenOfDeLocalStorageLeeg4 =  localStorage.getItem("hierWordtHetLokaalInOpgeslagen");
+var kijkenOfDeLocalStorageLeeg5 =  localStorage.getItem("hierWordtDeBeschrijvingInOpgeslagen");
+      
+     
+if (!kijkenOfDeLocalStorageLeeg && !kijkenOfDeLocalStorageLeeg2 && !kijkenOfDeLocalStorageLeeg3 && !kijkenOfDeLocalStorageLeeg4 && !kijkenOfDeLocalStorageLeeg5) {
   console.log("Er is niets in de localStorage opgeslagen, dus er komt geen nieuwe klacht bij!");
 } else {
   klachtBijvoegen();
@@ -10,7 +15,7 @@ if (!kijkenOfDeLocalStorageLeeg) {
 function klachtBijvoegen(){
    // Bron voor datum van vandaag 
   // https://stackoverflow.com/questions/2013255/how-to-get-year-month-day-from-a-date-object
-  document.getElementById("klachtenlijstLocalStorage").innerHTML = '<div class="grijzeKleur"><a href="klachtenbeschrijvingLocalStorage.html"><li><span>' + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + '</span>' + localStorage.getItem('hierWordtHetOnderwerpInOpgeslagen') + '<span>B.208</span><img src="../img/Information.svg" alt=""><img src="../img/groenbol.svg" alt=""></li></a></div>';
+  document.getElementById("klachtenlijstLocalStorage").innerHTML = '<div class="grijzeKleur"><a href="klachtenbeschrijvingLocalStorage.html"><li><span>' + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + '</span>' + localStorage.getItem('hierWordtHetOnderwerpInOpgeslagen') + '<span>'+localStorage.getItem("hierWordtHetGebouwInOpgeslagen")+"."+localStorage.getItem("hierWordtHetLokaalInOpgeslagen")+'</span><img src="../img/Information.svg" alt=""><img src="../img/groenbol.svg" alt=""></li></a></div>';
   
   
 }
@@ -38,10 +43,3 @@ window.onclick = function (event) {
 }
 
 
-//
-//localStorage.setItem('hierWordtHetOnderwerpInOpgeslagen', onderwerp);
-//      localStorage.setItem('hierWordtDeCampusInOpgeslagen', campus);
-//      localStorage.setItem('hierWordtHetGebouwInOpgeslagen', gebouw);
-//      localStorage.setItem('hierWordtHetLokaalInOpgeslagen', lokalen);
-//      localStorage.setItem('hierWordtDeBeschrijvingInOpgeslagen', beschrijving);
-//  
