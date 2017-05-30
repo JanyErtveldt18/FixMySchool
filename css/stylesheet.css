@@ -14,32 +14,277 @@
   font-style: normal; 
 } 
 
-/* ACCOUNT */
+* {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
 
+/* INDEX (Imane)*/
+
+.bodyIndex 
+{
+    background-color: #3C3C3B;
+}
+
+.logoIndex img
+{
+    width: 90%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.logoIndex 
+{
+    
+}
+
+.languagesIndex 
+{
+    color: white;
+    margin-left: 15%;
+}
+
+.languagesIndex p 
+{
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.80em;
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    float: left;
+}
+
+#nl p
+{
+    text-align: right;
+}
+
+#en p
+{
+    text-align: left;
+}
+
+.selected p
+{
+    color: darkgrey;
+}
+
+.selectIndex
+{
+    width: 90%;
+    height: 4em;
+    margin-left: 5%;
+    font-size: 0.80em
+}
+
+.inputIndex 
+{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    color: white;
+    background-color: #E30512;
+    border: none;
+    font-size: 1.2em;
+}
+
+.handleidingIndex p
+{
+    color: white;
+    font-size: 0.80em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.handleidingIndex
+{
+    width: 100%;
+}
+
+/* KLACHTEN+SUGGESTIES+BEDANKT+MIJN INZENDINGEN (Imane)*/
+
+.dropKnp {
+	background-color: #E30512;
+	color: white;
+	padding: 15px 10px 10px 0;
+	font-size: 30px;
+	border: none;
+	cursor: pointer;
+	float: right;
+}
+
+.ordeDrop p {
+	width: 83%;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 4%;
+}
+
+.dropdown {
+	position: relative;
+	display: block;
+}
+
+.contentKlacht {
+	margin-top: 70px;
+	padding: 1em 0 1em 1em;
+	width: 100%;
+	display: none;
+	position: absolute;
+	background-color: #E30512;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#ordenen ul li {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.ordeDrop a:hover {
+	background-color: #E30512
+}
+
+.show {
+	display: block;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ordeDrop {
+	position: relative;
+	background-color: #E30512;
+	height: 4.3em;
+	line-height: 4.3em;
+	color: white;
+    z-index: 99999;
+}
+
+#ordenen {
+	position: relative;
+	list-style: none;
+	line-height: 2em;
+}
+
+#klachtenlijst, 
+#mijnklachtenlijst, 
+#suggestielijst
+{
+    position: relative;
+    height: 5em;
+    line-height: 5em;
+    font-weight: bold;
+    list-style: none;
+}
+
+#klachtenlijst img, 
+#mijnklachtenlijst img,
+#suggestielijst img
+{
+    width: 1.3em;
+    float: right;
+    height: 5em;
+    padding-right: 1.5em;
+}
+
+#klachtenlijst span, 
+#mijnklachtenlijst span, 
+#suggestielijst span
+{
+    font-weight: normal;
+    font-size: 0.7em;
+    color: darkgrey;
+    margin-right: 3%;
+    padding-left: 3%;
+}
+
+.add {
+	background-color: #3C3C3B;
+	width: 4em;
+	height: 4em;
+	border-radius: 3em;
+	position: fixed;
+	margin-left: 75%;
+	top: 85%;
+    box-shadow: 4px 4px 15px black;
+}
+
+.backto {
+    background-color: #E30512;
+	width: 90%;
+	height: 50px;
+	position: fixed;
+	margin-left: 5%;
+    margin-right: 5%;
+	top: 70%;
+    border-radius: 8px;
+}
+
+.add button {
+	color: white;
+	border: 0;
+	background: none;
+	font-size: 4em;
+	line-height: 0.95em;
+}
+
+.backto button {
+    color: white;
+	border: 0;
+	background: none;
+	font-size: 3em;
+    text-align: center;
+}
+
+.backtop {
+    font-size: 25px;
+    line-height: 2em;
+}
+
+.bedankt {
+	font-size: 1.7em;
+	text-align: center;
+	font-weight: normal;
+	padding: 5%;
+}
+
+#grijs {
+	background-color: #E8E8E8;
+}
+
+.grijzeKleur{
+  text-decoration: none;
+  background-color: #E8E8E8;
+}
+
+
+/* ACCOUNT */
 
 /* FORMULIER KLACHT */
 
-
 /* FORMULIER SUGGESTIE */
-
-
-/* KLACHTEN */
-
 
 /* KLACHTENMELDINGEN */
 
-
 /* NAVIGATIE */
 
-
 /* NOODGEVALLEN */
-
-      
-/* INDEX */
-      
-      
+         
 /* AXEL */
-      
-      
+         
 /* JANY */
       

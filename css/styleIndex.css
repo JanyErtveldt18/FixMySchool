@@ -18,14 +18,12 @@
 
 
 
-body 
+.bodyIndex 
 {
-    margin: 0;
     background-color: #3C3C3B;
-    font-family: "Roboto", sans-serif;
 }
 
-.logo img
+.logoIndex img
 {
     width: 90%;
     margin-left: auto;
@@ -35,18 +33,18 @@ body
     margin-bottom: 10%;
 }
 
-.logo 
+.logoIndex 
 {
     
 }
 
-.languages 
+.languagesIndex 
 {
     color: white;
     margin-left: 15%;
 }
 
-.languages p 
+.languagesIndex p 
 {
     text-align: center;
     padding: 0.5em;
@@ -91,7 +89,7 @@ body
     font-size: 1.2em;
 }
 
-.handleiding p
+.handleidingIndex p
 {
     color: white;
     font-size: 0.80em;
@@ -99,14 +97,8 @@ body
     text-align: center;
 }
 
-.handleiding
+.handleidingIndex
 {
     width: 100%;
 }
 
-
-
-@media only screen and (max-width: 360px) 
-{
-    
-}
