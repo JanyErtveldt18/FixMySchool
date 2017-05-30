@@ -60,9 +60,9 @@ function checkOnderwerp(){
     var lengteOnderwerp = waardeOnderwerp.length;
     
    
-    if(lengteOnderwerp >= 2){
+    if(lengteOnderwerp >= 3){
        //https://stackoverflow.com/questions/3532053/regular-expression-for-only-characters-a-z-a-z
-      if(waardeOnderwerp = waardeOnderwerp.match(/^[a-z]+$/i)){
+      if(waardeOnderwerp = waardeOnderwerp.match(/^[a-zA-Z ]+$/i)){
          
           console.log("Het onderwerp die u gaf voldoet aan de regels")
         return true;
@@ -78,9 +78,9 @@ function checkBeschrijving(){
     var lengteBeschrijving = waardeBeschrijving.length;
     
    
-    if(lengteBeschrijving >= 2){
+    if(lengteBeschrijving >= 5){
   //Bron voor regex: https://stackoverflow.com/questions/13946651/matching-special-characters-and-letters-in-regex
-      if(waardeBeschrijving = waardeBeschrijving.match(/^[a-zA-Z]+(([\'\,\.\-_ \/)(:][a-zA-Z_ ])?[a-zA-Z_ .]*)*$/)){
+      if(lengteBeschrijving <= 200){
          
           console.log("De beschrijving die u gaf voldoet aan de regels")
         return true;

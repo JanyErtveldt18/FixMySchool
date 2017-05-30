@@ -63,7 +63,23 @@ form{
 
 #gebouw, #lokalen{
     display: inline-block;
-    width: 47%;
+    width: 45.5%;
+}
+#campus{
+  text-align: left;
+  padding-left: 10px;
+}
+#campusTekst{
+  width: 70%;
+}
+#onderwerp{
+  text-align: left;
+  padding-left: 10px;
+}
+#gebouw{
+  text-align: left;
+  padding-left: 10px;
+  width: 45.5%;
 }
 #gebouw p,#lokalen p,#campus p, #onderwerp p{
     margin-right: 10px;
