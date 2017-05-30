@@ -12,6 +12,7 @@ function klachtBijvoegen(){
   // https://stackoverflow.com/questions/2013255/how-to-get-year-month-day-from-a-date-object
   document.getElementById("klachtenlijstLocalStorage").innerHTML = '<div class="grijzeKleur"><a href="klachtenbeschrijvingLocalStorage.html"><li><span>' + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + '</span>' + localStorage.getItem('hierWordtHetOnderwerpInOpgeslagen') + '<span>B.208</span><img src="../img/Information.svg" alt=""><img src="../img/groenbol.svg" alt=""></li></a></div>';
   
+  
 }
 
 
@@ -36,3 +37,11 @@ window.onclick = function (event) {
   }
 }
 
+
+//
+//localStorage.setItem('hierWordtHetOnderwerpInOpgeslagen', onderwerp);
+//      localStorage.setItem('hierWordtDeCampusInOpgeslagen', campus);
+//      localStorage.setItem('hierWordtHetGebouwInOpgeslagen', gebouw);
+//      localStorage.setItem('hierWordtHetLokaalInOpgeslagen', lokalen);
+//      localStorage.setItem('hierWordtDeBeschrijvingInOpgeslagen', beschrijving);
+//  
