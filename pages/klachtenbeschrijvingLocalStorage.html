@@ -41,7 +41,7 @@
 		</ul>
 	</div>
 	<!-- Header -->
-	<header>
+	<header> 
 		<nav>
 			<span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
 			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
@@ -49,11 +49,11 @@
 	</header>
 	<main id="content">
 		<div id="contentDiv">
-			<h1 id="onderwerp"></h1>
-            <h2 id="gebouwTekst"></h2>
-            <h2 id="campusTekst"></h2>
-			<h3>02/06/2017 - 15u20</h3>
-			<p id="beschrijvingTekst"></p>
+			<div id="hierKomtHetOnderwerp"></div>
+            <div id="hierKomtHetGebouw"></div>
+            <div id="campusTekst"></div>
+			<div>02/06/2017 - 15u20</div>
+			<p id="hierKomtDeBeschrijving"></p>
 			<img id="foto" src="">
 			<p id="pstatus">Status: In behandeling</p>
 			<img id="circle" src="../img/Circleoranje.svg">
@@ -64,6 +64,8 @@
 		</div>
 	</main>
 </body>
+<script src="../js/jquery-3.2.0.js"></script>
 <script src="../js/navigatie.js"></script>
 <script src="../js/formulierFotoToevoegen.js"></script>
+<script src="../js/klachtenbeschrijvingLocalStorage.js"></script>
 </html>

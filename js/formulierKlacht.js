@@ -10,7 +10,8 @@ function saveInLocalStorage(){
 
 function localOpslaan() {
     if (typeof (Storage) !== "undefined") {
-      localStorage.setItem("hierWordtHetOnderwerpInOpgeslagen", onderwerp);
+      
+      localStorage.setItem('hierWordtHetOnderwerpInOpgeslagen', onderwerp);
   
     } else {
       console.log("fail");
