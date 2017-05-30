@@ -112,7 +112,8 @@ a
 }
 
 #klachtenlijst img, 
-#mijnklachtenlijst img
+#mijnklachtenlijst img,
+#suggestielijst img
 {
     width: 1.3em;
     float: right;
