@@ -9,19 +9,44 @@
 },
         {
     "id": "2",
-    "naam": "Ford GT 2017",
-    "img": "../img/Homepagina.png",
+    "naam": "Homepagina",
+    "img": "../img/homepagina.png",
     "titel": "Homepagina",
     "beschrijving":"De homepagina geeft u de mogelijkheid om een klacht, een suggestie, de noodgevalpagina en om uw eigen account te raadplegen"
+        },  {
+    "id": "3",
+    "naam": "Klachten knop",
+    "img": "../img/homepagina_klachten.png",
+    "titel": "Homepagina",
+    "beschrijving":"Druk op klachten om een overzicht te krijgen van de recentste klachten"
         },
         {
-    "id": "3",
-    "naam": "Menu",
-    "img": "../img/noodgevallen.png",
-    "titel": "Menu",
-    "beschrijving":"Hier ziet u de procedures die gevolgd worden ingeval van nood"
+    "id": "4",
+    "naam": "klachten",
+    "img": "../img/klachten.png",
+    "titel": "klachten",
+    "beschrijving":"Overzicht klachten"
+        },{
+    "id": "5",
+    "naam": "klachten Plus teken",
+    "img": "../img/klachten_plus.png",
+    "titel": "Plus teken",
+    "beschrijving":"Druk op het plusteken om een nieuwe klacht toe te voegen"
+        },
+        {
+    "id": "6",
+    "naam": "klacht Formulier",
+    "img": "../img/Klacht_toevoegen.png",
+    "titel": "klacht toevoegen",
+    "beschrijving":"Druk op het plusteken om een nieuwe klacht toe te voegen"
+        },
+         {
+    "id": "7",
+    "naam": "Bedank pagina",
+    "img": "../img/Klacht_voltooid.png",
+    "titel": "Bedankt",
+    "beschrijving":"Eens u een klacht heeft toegevoegd, wordt u doorgestuurd naar de bedanktpagina"
         }
-    
 
     ]
 }

@@ -152,9 +152,7 @@
         margin-left: 22em;
         
     }
-    #dots {
-        margin-left: 10em;
-    }
+    
 }
 
 @media screen and (max-width:376px) {
@@ -162,9 +160,7 @@
         padding: 1em;
         margin-left: 20em;
     }
-    #dots {
-        margin-left: 10em;
-    }
+    
 }
 
 @media screen and (max-width:360px) {
@@ -173,9 +169,7 @@
         margin-left: 19.5em;
         padding-right: 1em;
     }
-    #dots {
-        margin-left: 8.5em;
-    }
+    
 }
 
 @media screen and (max-width:320px) {
@@ -191,7 +185,7 @@
     }
     #dots {
         padding: 0.5em;
-        margin-left: 7.5em;
+        margin-left: 4.5em;
     }
     .Aanwijzingen {
         height: 1em;
