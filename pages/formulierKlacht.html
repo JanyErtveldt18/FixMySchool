@@ -2,68 +2,70 @@
 <html lang="nl">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Voeg hier de paginatitel in -->
-    <title>Klacht Indienen | Fix My School</title>
-    <!-- Link hier naar pagina CSS -->
-    <link rel="stylesheet" type="text/css" href="../css/formulierKlacht.css">
-    <!-- CSS voor sidebar -->
-    <link rel="stylesheet" href="../css/navigatie.css"> </head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Voeg hier de paginatitel in -->
+	<title>Klacht Indienen | Fix My School</title>
+	<!-- Link hier naar pagina CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/formulierKlacht.css">
+	<!-- CSS voor sidebar -->
+	<link rel="stylesheet" href="../css/navigatie.css"> </head>
 
 <body>
-    <!-- Sidebar -->
-    <div id="mySidenav" class="sidenav">
-        <nav id="nav"> <span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
-            <h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1> </nav>
-        <ul>
-            <li>
-                <a href="index.html"><img src="../img/Home.svg">Home</a>
-            </li>
-            <li>
-                <a href="klachten.html"><img src="../img/KlachtenRood.svg">Klachten</a>
-            </li>
-            <li>
-                <a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
-            </li>
-            <li>
-                <a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
-            </li>
-            <li>
-                <a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
-            </li>
-        </ul>
-    </div>
-    <!-- Header -->
-    <header>
-        <nav> <span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
-            <h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1> </nav>
-    </header>
-    <main id="content"> 
-        <a href="../pages/klachten.html"><img id="annuleerknop" src="../img/annuleerknop.svg"></a>
-        <div class="clearfix"></div>
-        <form>
-            <div id="campus">
-                <p>Campus:</p>
-                <select id="campusTekst" name="campussen">
+	<!-- Sidebar -->
+	<div id="mySidenav" class="sidenav">
+		<nav id="nav"> <span onclick="closeNav()"><img id="Cross" src="../img/Cross.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+		<ul>
+			<li>
+				<a href="index.html"><img src="../img/Home.svg">Home</a>
+			</li>
+			<li>
+				<a href="klachten.html"><img src="../img/KlachtenRood.svg">Klachten</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/SuggestiesRood.svg">Suggesties</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/NoodgevalRood.svg">Noodgevallen</a>
+			</li>
+			<li>
+				<a href="#"><img src="../img/ProfielRood.svg">Mijn&nbsp;account</a>
+			</li>
+		</ul>
+	</div>
+	<!-- Header -->
+	<header>
+		<nav> <span onclick="openNav()"><img id="Hamburger" src="../img/Hamburger.svg"></span>
+			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
+		</nav>
+	</header>
+	<main id="content">
+		<a href="../pages/klachten.html"><img id="annuleerknop" src="../img/annuleerknop.svg"></a>
+		<div class="clearfix"></div>
+		<form>
+			<div id="campus">
+				<p>Campus:</p>
+				<select id="campusTekst" name="campussen">
                     <option value="kaai" selected>Kaai</option>
                     <option value="bloemenveld">Bloemenveld</option>
                     <option value="jette">Jette</option>
                     <option value="conservatorium">Conservatorium</option>
                     <option value="dansaert">Dansaert</option>
                 </select>
-            </div>
-            <div id="gebouw">
-                <p>Gebouw:</p>
-                <select id="gebouwTekst" name="gebouwen">
+			</div>
+			<div id="gebouw">
+				<p>Gebouw:</p>
+				<select id="gebouwTekst" name="gebouwen">
                     <option value="A">A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
                 </select>
-            </div>
-            <div id="lokalen">
-                <p>Lokaal:</p>
-                <select id="lokalenTekst" name="lokalen">
+			</div>
+			<div id="lokalen">
+				<p>Lokaal:</p>
+				<select id="lokalenTekst" name="lokalen">
                     <option value="101">101</option>
                     <option value="102">102</option>
                     <option value="103">103</option>
@@ -79,34 +81,35 @@
                     <option value="207">207</option>
                     <option value="208">208</option>
                 </select>
-            </div>
-            <br>
-            <div id="onderwerp">
-            <p>Onderwerp:</p>
-            <input type="text" id="onderwerpTekst" name="onderwerp" placeholder="Vul hier in." onblur="controleOnderwerpEnBeschrijving()" >
-            </div>
-            <div id="beschrijving">
-                <p>Beschijving</p>
-                <br>
-                <textarea id="beschrijvingTekst" name="beschrijving"  placeholder="Voer hier uw beschrijving in." onblur="controleOnderwerpEnBeschrijving()"></textarea>
-            </div>
-           
-               <button id="submit" type="submit" name="verzenden" onclick="saveInLocalStorage()"> <a href="../pages/bedanktKlacht.html">Verzenden</a></button>
-            
-                <div class="fotoUploaden">
-                    <label for="fotoNemen">
+			</div>
+			<br>
+			<div id="onderwerp">
+				<p>Onderwerp:</p>
+				<input type="text" id="onderwerpTekst" name="onderwerp" placeholder="Vul hier in." onblur="controleOnderwerpEnBeschrijving()">
+			</div>
+			<div id="beschrijving">
+				<p>Beschijving</p>
+				<br>
+				<textarea id="beschrijvingTekst" name="beschrijving" placeholder="Voer hier uw beschrijving in." onblur="controleOnderwerpEnBeschrijving()"></textarea>
+			</div>
+
+			<button id="submit" type="submit" name="verzenden" onclick="saveInLocalStorage()"> <a href="../pages/bedanktKlacht.html">Verzenden</a></button>
+
+			<div class="fotoUploaden">
+				<label for="fotoNemen">
                         <img id="fotoToevoegen" src="../img/FotoToevoegn.svg">
                     </label>
 
-                        <input type="file" id="fotoNemen"/>
-                    </div>
-            <div class="clearfix"></div>
-        </form>
-    </main>
-    
+				<input type="file" id="fotoNemen" />
+			</div>
+			<div class="clearfix"></div>
+		</form>
+	</main>
+
 </body>
-  <script src="../js/jquery-3.2.0.js"></script>
-  <script src="../js/navigatie.js"></script>
-  <script src="../js/formulierKlacht.js"></script>
-  <script src="../js/formulierFotoToevoegen.js"></script>
+<script src="../js/jquery-3.2.0.js"></script>
+<script src="../js/navigatie.js"></script>
+<script src="../js/formulierKlacht.js"></script>
+<script src="../js/formulierFotoToevoegen.js"></script>
+
 </html>

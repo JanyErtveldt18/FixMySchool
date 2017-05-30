@@ -10,8 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/klachten.css">
 	<!-- CSS voor sidebar -->
 	<link rel="stylesheet" href="../css/navigatie.css">
-    
-    
+
+
 </head>
 
 <body>
@@ -47,106 +47,120 @@
 		</nav>
 	</header>
 	<main id="content">
-		
-        <div class="ordeDrop"><p>Ordenen volgens</p>
-        <button onclick="dropDown()" class="dropKnp">&#x25BC;</button>
-        <div id="dropContent" class="content">
- 
-            <ul id="ordenen">
-                <li>
-                    <input type="radio" name="datum" value="datum"> Datum</li>
-                <li>
-                    <input type="radio" name="datum" value="datum"> Behandeld</li>
-                <li>
-                    <input type="radio" name="datum" value="datum"> In behandeling</li>
-                <li>
-                    <input type="radio" name="datum" value="datum"> Niet behandeld</li>
-                <li>
-                    <input type="radio" name="datum" value="datum"> Eigen inzendingen</li>
-            </ul>
 
-        </div>
-    </div>
-    
-    
-    <ul id="klachtenlijst">
-        <ul id="klachtenlijstLocalStorage">
-            
-        </ul>
+		<div class="ordeDrop">
+			<p>Ordenen volgens</p>
+			<button onclick="dropDown()" class="dropKnp">&#x25BC;</button>
+			<div id="dropContent" class="content">
 
-        <a href="klachtenbeschrijving.html">
+				<ul id="ordenen">
+					<li>
+						<input type="radio" name="datum" value="datum"> Datum</li>
+					<li>
+						<input type="radio" name="datum" value="datum"> Behandeld</li>
+					<li>
+						<input type="radio" name="datum" value="datum"> In behandeling</li>
+					<li>
+						<input type="radio" name="datum" value="datum"> Niet behandeld</li>
+					<li>
+						<input type="radio" name="datum" value="datum"> Eigen inzendingen</li>
+				</ul>
 
-        <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
-<!--        <a href="klachtenbeschrijving.html">-->
-                <img src="../img/Information.svg" alt="">
-<!--        </a>-->
-        <img src="../img/roodbol.svg" alt="">
-        </li>
+			</div>
+		</div>
 
-        </a>
-      
-        <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/roodbol.svg" alt="">
-        </li></div>
-        <li> <span>23/05/2017</span> Stoelen kapot <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/roodbol.svg" alt="">
-        </li>
-        <div id="grijs"><li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/roodbol.svg" alt="">
-        </li></div>
-        <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
-<!--        <a href="klachtenbeschrijving.html">-->
-                <img src="../img/Information.svg" alt="">
-<!--        </a>-->
-        <img src="../img/oranjebol.svg" alt="">
-        </li>
-        <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/oranjebol.svg" alt="">
-        </li></div>
-        <li> <span>23/05/2017</span> Stoelen kapot<span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/oranjebol.svg" alt="">
-        </li>
-        <div id="grijs"><li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/groenbol.svg" alt="">
-        </li></div>
-        <li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
-<!--        <a href="klachtenbeschrijving.html">-->
-                <img src="../img/Information.svg" alt="">
-<!--        </a>-->
-        <img src="../img/groenbol.svg" alt="">
-        </li>
-        <div id="grijs"><li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/groenbol.svg" alt="">
-        </li></div>
-        <li> <span>23/05/2017</span> Stoelen kapot <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/groenbol.svg" alt="">
-        </li>
-        <div id="grijs"><li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
-        <img src="../img/Information.svg" alt="">
-        <img src="../img/groenbol.svg" alt="">
-        </li></div>
-        
-    </ul>
-    
-    <div class="add"> 
-        <a href="formulierKlacht.html">
-        <center><button>&#43;</button></center>
-        </a>
-    </div>
-        
-        <!-- Hier komt de pagina content -->
+
+		<ul id="klachtenlijst">
+			<ul id="klachtenlijstLocalStorage">
+
+			</ul>
+
+			<a href="klachtenbeschrijving.html">
+
+				<li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
+					<!--        <a href="klachtenbeschrijving.html">-->
+					<img src="../img/Information.svg" alt="">
+					<!--        </a>-->
+					<img src="../img/roodbol.svg" alt="">
+				</li>
+
+			</a>
+
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/roodbol.svg" alt="">
+				</li>
+			</div>
+			<li> <span>23/05/2017</span> Stoelen kapot <span>B.208</span>
+				<img src="../img/Information.svg" alt="">
+				<img src="../img/roodbol.svg" alt="">
+			</li>
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/roodbol.svg" alt="">
+				</li>
+			</div>
+			<li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
+				<!--        <a href="klachtenbeschrijving.html">-->
+				<img src="../img/Information.svg" alt="">
+				<!--        </a>-->
+				<img src="../img/oranjebol.svg" alt="">
+			</li>
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/oranjebol.svg" alt="">
+				</li>
+			</div>
+			<li> <span>23/05/2017</span> Stoelen kapot<span>B.208</span>
+				<img src="../img/Information.svg" alt="">
+				<img src="../img/oranjebol.svg" alt="">
+			</li>
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/groenbol.svg" alt="">
+				</li>
+			</div>
+			<li> <span>23/05/2017</span> Lamp kapot <span>B.208</span>
+				<!--        <a href="klachtenbeschrijving.html">-->
+				<img src="../img/Information.svg" alt="">
+				<!--        </a>-->
+				<img src="../img/groenbol.svg" alt="">
+			</li>
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen toiletpapier <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/groenbol.svg" alt="">
+				</li>
+			</div>
+			<li> <span>23/05/2017</span> Stoelen kapot <span>B.208</span>
+				<img src="../img/Information.svg" alt="">
+				<img src="../img/groenbol.svg" alt="">
+			</li>
+			<div id="grijs">
+				<li> <span>23/05/2017</span> Geen elektriciteit <span>B.208</span>
+					<img src="../img/Information.svg" alt="">
+					<img src="../img/groenbol.svg" alt="">
+				</li>
+			</div>
+
+		</ul>
+
+		<div class="add">
+			<a href="formulierKlacht.html">
+				<center><button>&#43;</button></center>
+			</a>
+		</div>
+
+		<!-- Hier komt de pagina content -->
 	</main>
-	
+
 </body>
-  <script src="../js/jquery-3.2.0.js"></script>
-  <script src="../js/navigatie.js"></script>
-  <script src="../js/klachten.js"></script>
+<script src="../js/jquery-3.2.0.js"></script>
+<script src="../js/navigatie.js"></script>
+<script src="../js/klachten.js"></script>
+
 </html>
