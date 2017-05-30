@@ -10,7 +10,7 @@
   font-style: normal; 
 }
 
-.clearfix:after {
+.formulierSuggestie .clearfix:after {
     clear: both;
     content: ".";
     display: block;
@@ -18,57 +18,57 @@
     visibility: hidden;
 }
 
-main{
+.formulierSuggestie main{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#annuleerknop{
+.formulierSuggestie #annuleerknop{
     width: 50px;
     height: 50px;
     margin: -25px 0px 0px 75%;
     position: absolute; 
     z-index: 999999;
 }
-select, input, p{
+.formulierSuggestie select, .formulierSuggestie input, .formulierSuggestie p{
     font-family: 'Roboto';
     display: inline-block;
     margin: 10px 0px;
     font-size: 1.1em;
 }
-form{
+.formulierSuggestie form{
     margin-top: 20px;
     padding-top: 30px;
 }
-#campus, #onderwerp{
+.formulierSuggestie #campus, .formulierSuggestie #onderwerp{
     border: 2px solid black;
     border-top: none;
     text-align: center;
     margin-bottom: 35px;
 }
-#campus p, #onderwerp p{
+.formulierSuggestie #campus p, .formulierSuggestie #onderwerp p{
     margin-right: 10px;
 }
-#onderwerp input{
+.formulierSuggestie #onderwerp input{
     width: 170px;
 }
-#beschrijving p{
+.formulierSuggestie #beschrijving p{
     margin-bottom: 10px;
 }
-#beschrijving{
+.formulierSuggestie #beschrijving{
     border: 2px solid black;
     border-top: none;
     padding-left: 10px;
     padding-bottom: 7px;
     margin-bottom: 35px;
 }
-#beschrijving textarea{
+.formulierSuggestie #beschrijving textarea{
     font-family: 'Roboto';
     font-size: 1em;
     width: 96%;
     height: 5em;
 }
-button{
+.formulierSuggestie button{
     background-color: rgb(227,6,19);
     padding: 15px 32px;
     font-size: 1.1em;
@@ -76,14 +76,14 @@ button{
     color: white;
     border: none;
 }
-select{
+.formulierSuggestie select{
     border: none;
 }
-#beschrijvingTekst{
+.formulierSuggestie #beschrijvingTekst{
   max-width: 96%;
 }
 @media screen and (max-width: 373px){
-    select, input, p{
+    .formulierSuggestie select, .formulierSuggestie input, .formulierSuggestie p{
     font-size: 0.9em;
 }
 }

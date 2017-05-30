@@ -10,53 +10,50 @@
   font-style: normal; 
 }
 
-body{
-    margin: 0;
-}
-h2{
+.noodgevallen h2{
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 1.3em;
     margin: 25px 0px;
 }
-p{
+.noodgevallen p{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1em;
     margin: 30px 0px;
 }
-article{
+.noodgevallen article{
     margin: auto;
     padding: 0px 15px;
     overflow: auto;
 }
-article img{
+.noodgevallen article img{
     width: 10%;
     height: 10%;
     float: right;
 }
-.kantoor{
+.noodgevallen .kantoor{
     display: inline;
 }
-.kantoor p{
+.noodgevallen .kantoor p{
     margin: 15px 0px;
 }
-.noodnummer{
+.noodgevallen .noodnummer{
     font-weight: 700;
     width: 45%;
     float: right;
 }
-.kantooruren{
+.noodgevallen .kantooruren{
     width: 45%;
     margin-right: 0px;
     float: left;
 }
-.uitlegnummer{
+.noodgevallen .uitlegnummer{
     margin-top: 0;
     margin-bottom: 40px;
     padding-top: 120px;
 }
-#tweedenoodgeval{
+.noodgevallen #tweedenoodgeval{
     background-color: rgb(204,204,204);
 }
 

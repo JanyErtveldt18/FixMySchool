@@ -10,7 +10,7 @@
   font-style: normal; 
 }
 
-.clearfix:after {
+.formulierKlacht .clearfix:after {
     clear: both;
     content: ".";
     display: block;
@@ -18,42 +18,42 @@
     visibility: hidden;
 }
 
-main{
+.klachtFormulier main{
     padding-left: 20px;
     padding-right: 20px;
 }
-a{
+.klachtFormulier a{
     text-decoration: none;
 }
 
-#annuleerknop{
+.klachtFormulier #annuleerknop{
     width: 50px;
     height: 50px;
     margin: -25px 0px 0px 75%;
     position: absolute;
     z-index: 999999;
 }
-#fotoToevoegen{
+.klachtFormulier #fotoToevoegen{
     width: 70px;
     height: 70px;
 }
-select, input, p{
+.klachtFormulier select, .klachtFormulier input, .klachtFormulier p{
     font-family: 'Roboto';
     display: inline-block;
     margin: 10px 0px;
     font-size: 1.1em;
 }
-form{
+.klachtFormulier form{
     margin-top: 20px;
     padding-top: 30px;
 }
-#campus, #gebouw, #lokalen, #onderwerp{
+.klachtFormulier #campus, .klachtFormulier #gebouw, .klachtFormulier #lokalen, .klachtFormulier #onderwerp{
     border: 2px solid black;
     border-top: none;
     text-align: center;
     margin-bottom: 35px;
 }
-#beschrijving{
+.klachtFormulier #beschrijving{
     border: 2px solid black;
     border-top: none;
     padding-left: 10px;
@@ -61,42 +61,42 @@ form{
     margin-bottom: 35px;
 }
 
-#gebouw, #lokalen{
+.klachtFormulier #gebouw, .klachtFormulier #lokalen{
     display: inline-block;
     width: 45.5%;
 }
-#campus{
+.klachtFormulier #campus{
   text-align: left;
   padding-left: 10px;
 }
-#campusTekst{
+.klachtFormulier #campusTekst{
   width: 70%;
 }
-#onderwerp{
+.klachtFormulier #onderwerp{
   text-align: left;
   padding-left: 10px;
 }
-#gebouw{
+.klachtFormulier #gebouw{
   text-align: left;
   padding-left: 10px;
   width: 45.5%;
 }
-#gebouw p,#lokalen p,#campus p, #onderwerp p{
+.klachtFormulier #gebouw p, .klachtFormulier #lokalen p, .klachtFormulier #campus p, .klachtFormulier #onderwerp p{
     margin-right: 10px;
 }
-#beschrijving p{
+.klachtFormulier #beschrijving p{
     margin-bottom: 10px;
 }
-#beschrijving{
+.klachtFormulier #beschrijving{
     margin-bottom: 20px;
 }
-#beschrijving textarea{
+.klachtFormulier #beschrijving textarea{
     font-family: 'Roboto';
     font-size: 1em;
     width: 96%;
     height: 5em;
 }
-button{
+.klachtFormulier button{
     background-color: rgb(227,6,19);
     padding: 15px 32px;
     border: none;
@@ -105,45 +105,44 @@ button{
     color: white;
     display: inline;
 }
-#gebouw{
+.klachtFormulier #gebouw{
     margin-right: 8px;
 }
-#onderwerp{
+.klachtFormulier #onderwerp{
     margin-bottom: 25px;
 }
-select{
+.klachtFormulier select{
     border: none;
 }
-.fotoUploaden{
+.klachtFormulier .fotoUploaden{
    margin-left: 90px;
   
     display: inline;
 }
-.fotoUploaden input{
-  
+.klachtFormulier .fotoUploaden input{
     display: none;
 }
-.fotoToevoegen{
+.klachtFormulier .fotoToevoegen{
   
     position: relative;
 }
-#beschrijvingTekst{
+.klachtFormulier #beschrijvingTekst{
   max-width: 96%;
 }
-.linkVerzenden{
+.klachtFormulier .linkVerzenden{
   text-decoration: none;
   color: white;
   padding: 15px 0px;
   cursor: pointer;
 }
 @media screen and (max-width: 373px){
-    #gebouw, #lokalen{
+    .klachtFormulier #gebouw, .klachtFormulier #lokalen{
     width: 46%;
 }
-    select, input, p{
+    .klachtFormulier select, .klachtFormulier input, .klachtFormulier p{
     font-size: 0.9em;
 }
-    button{
+    .klachtFormulier button{
     margin-right: 40px;
 }
 }

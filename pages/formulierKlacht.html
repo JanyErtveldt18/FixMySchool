@@ -41,7 +41,8 @@
 			<h1 id="erasmushogeschool">Erasmushogeschool Brussel</h1>
 		</nav>
 	</header>
-	<main id="content">
+	<main class="klachtFormulier" id="content">
+        <div class="klachtFormulier">
 		<a href="../pages/klachten.html"><img id="annuleerknop" src="../img/annuleerknop.svg"></a>
 		<div class="clearfix"></div>
 		<form>
@@ -57,7 +58,7 @@
 			</div>
 			<div id="gebouw">
 				<p>Gebouw:</p>
-				<select id="gebouwTekst" name="gebouwen">
+				<select class="select" id="gebouwTekst" name="gebouwen">
                     <option value="A">A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
@@ -95,7 +96,7 @@
                 <textarea id="beschrijvingTekst" name="beschrijving"  placeholder="Voer hier uw beschrijving in." onblur="controleOnderwerpEnBeschrijving()"></textarea>
             </div>
            
-               <button id="submit" type="submit" name="verzenden" onclick="saveInLocalStorage()"><a href="../pages/bedanktKlacht.html" class="linkVerzenden">Verzenden</a></button>
+               <button class="knopVerzenden" id="submit" type="submit" name="verzenden" onclick="saveInLocalStorage()"><a href="../pages/bedanktKlacht.html" class="linkVerzenden">Verzenden</a></button>
             
 			<div class="fotoUploaden">
 				<label for="fotoNemen">
@@ -107,6 +108,7 @@
 			</div>
 			<div class="clearfix"></div>
 		</form>
+        </div>
 	</main>
 
 </body>
