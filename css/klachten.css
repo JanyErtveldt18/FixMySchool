@@ -50,7 +50,7 @@ ul {
 }
 
 .content {
-	margin-top: 18%;
+	margin-top: 70px;
 	padding: 1em 0 1em 1em;
 	width: 100%;
 	display: none;
@@ -175,8 +175,9 @@ a
 	height: 4em;
 	border-radius: 3em;
 	position: fixed;
-	margin-left: 18em;
-	top: 35em;
+	margin-left: 75%;
+	top: 85%;
+    box-shadow: 4px 4px 15px black;
 }
 
 .add button {

@@ -1,3 +1,7 @@
+//https://stackoverflow.com/questions/31850732/save-a-file-image-to-localstorage-html
+
+
+
 // Get all variables
 var fotoNemen = document.getElementById('fotoNemen');
 var result = document.getElementById('res');
@@ -7,7 +11,7 @@ var img = document.getElementById('foto');
 fotoNemen.addEventListener('click', function() {
     var file = this.files[0];
     // Basic type checking.
-    if (file.type.indexOf('image') < 0) {
+    if (file.type.indexOf('jpg') < 0) {
         res.innerHTML = 'invalid type';
         return;
     }
@@ -24,7 +28,7 @@ fotoNemen.addEventListener('click', function() {
         // Use your function will ensure the format is png.
         localStorage.setItem("imgData", getBase64Image(img));
         // You can just use as its already a string.
-        localStorage.setItem("imgData", fReader.result);
+        //localStorage.setItem("imgData", fReader.result);
     };
 
     // Read the file to DataURL format.
@@ -54,4 +58,6 @@ function fetchimage () {
 // Call fetch to get image from localStorage.
 // So each time you reload the page, the image in localstorage will be 
 // put on tableBanner
-//fetchimage();
+fetchimage();
+
+console.log(fetchimage);
