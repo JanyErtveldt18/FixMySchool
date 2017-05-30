@@ -15,7 +15,7 @@ if (!kijkenOfDeLocalStorageLeeg && !kijkenOfDeLocalStorageLeeg2 && !kijkenOfDeLo
 function klachtBijvoegen(){
    // Bron voor datum van vandaag 
   // https://stackoverflow.com/questions/2013255/how-to-get-year-month-day-from-a-date-object
-  document.getElementById("mijnklachtenlijst").innerHTML = '<div class="grijzeKleur"><li><span>' + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + '</span>' + localStorage.getItem('hierWordtHetOnderwerpInOpgeslagen') + '<span>'+localStorage.getItem("hierWordtHetGebouwInOpgeslagen")+"."+localStorage.getItem("hierWordtHetLokaalInOpgeslagen")+'</span><img src="../img/Information.svg" alt=""><img src="../img/roodbol.svg" alt=""></li></div>';
+  document.getElementById("mijnklachtenlijst").innerHTML = '<div class="grijzeKleur"><a href="klachtenbeschrijvingLocalStorage.html"><li><span>' + dt.getDate() + "/0" + (dt.getMonth() + 1) + "/" + dt.getFullYear() + '</span>' + localStorage.getItem('hierWordtHetOnderwerpInOpgeslagen') + '<span>'+localStorage.getItem("hierWordtHetGebouwInOpgeslagen")+"."+localStorage.getItem("hierWordtHetLokaalInOpgeslagen")+'</span><img src="../img/Information.svg" alt=""><img src="../img/roodbol.svg" alt=""></li></a></div>';
   
   
 }
