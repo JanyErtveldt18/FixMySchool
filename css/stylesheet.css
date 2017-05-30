@@ -163,8 +163,9 @@
 		    line-height: 2em;
 		}
 		
+        #mijnklachtenlijst,
 		#klachtenlijst,
-		#mijnklachtenlijst,
+		#mijnklachtenlijstHtml,
 		#suggestielijst {
 		    position: relative;
 		    height: 5em;
@@ -172,18 +173,19 @@
 		    font-weight: bold;
 		    list-style: none;
 		}
-		
-		#klachtenlijst img,
 		#mijnklachtenlijst img,
+		#klachtenlijst img,
+		#mijnklachtenlijstHtml img,
 		#suggestielijst img {
 		    width: 1.3em;
 		    float: right;
 		    height: 5em;
 		    padding-right: 1.5em;
 		}
-		
-		#klachtenlijst span,
+
 		#mijnklachtenlijst span,
+		#klachtenlijst span,
+		#mijnklachtenlijstHtml span,
 		#suggestielijst span {
 		    font-weight: normal;
 		    font-size: 0.7em;
