@@ -28,6 +28,7 @@ main{
     height: 50px;
     margin: -25px 0px 0px 75%;
     position: absolute; 
+    z-index: 999999;
 }
 select, input, p{
     font-family: 'Roboto';
