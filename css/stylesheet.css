@@ -1,280 +1,257 @@
-@font-face {
-  font-family: Roboto;
-
-  src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal; 
-}
- 
-
-@font-face {
-  font-family: 'Roboto Bold';
-  src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal; 
-} 
-
-* {
-	margin: 0;
-	font-family: "Roboto", sans-serif;
-}
-
-/* INDEX (Imane)*/
-
-.bodyIndex 
-{
-    background-color: #3C3C3B;
-}
-
-.logoIndex img
-{
-    width: 90%;
-    margin-left: auto;
-	margin-right: auto;
-	display: block;
-    margin-top: 35%;
-    margin-bottom: 10%;
-}
-
-.logoIndex 
-{
-    
-}
-
-.languagesIndex 
-{
-    color: white;
-    margin-left: 15%;
-}
-
-.languagesIndex p 
-{
-    text-align: center;
-    padding: 0.5em;
-    margin-bottom: 10px;
-    font-size: 0.80em;
-    text-decoration: none;
-    color: white;
-    width: 25%;
-    float: left;
-}
-
-#nl p
-{
-    text-align: right;
-}
-
-#en p
-{
-    text-align: left;
-}
-
-.selected p
-{
-    color: darkgrey;
-}
-
-.selectIndex
-{
-    width: 90%;
-    height: 4em;
-    margin-left: 5%;
-    font-size: 0.80em
-}
-
-.inputIndex 
-{
-    width: 90%;
-    height: 50px;
-    margin-left: 5%;
-    color: white;
-    background-color: #E30512;
-    border: none;
-    font-size: 1.2em;
-}
-
-.handleidingIndex p
-{
-    color: white;
-    font-size: 0.80em;
-    text-decoration: underline;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.handleidingIndex
-{
-    width: 100%;
-}
-
-/* KLACHTEN+SUGGESTIES+BEDANKT+MIJN INZENDINGEN (Imane)*/
-
-.dropKnp {
-	background-color: #E30512;
-	color: white;
-	padding: 15px 10px 10px 0;
-	font-size: 30px;
-	border: none;
-	cursor: pointer;
-	float: right;
-}
-
-.ordeDrop p {
-	width: 83%;
-	box-sizing: border-box;
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-	padding-left: 4%;
-}
-
-.dropdown {
-	position: relative;
-	display: block;
-}
-
-.contentKlacht {
-	margin-top: 70px;
-	padding: 1em 0 1em 1em;
-	width: 100%;
-	display: none;
-	position: absolute;
-	background-color: #E30512;
-	min-width: 160px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-#ordenen ul li {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-
-.ordeDrop a:hover {
-	background-color: #E30512
-}
-
-.show {
-	display: block;
-}
-
-a
-{
-    text-decoration: none;
-    color: black;
-}
-
-.ordeDrop {
-	position: relative;
-	background-color: #E30512;
-	height: 4.3em;
-	line-height: 4.3em;
-	color: white;
-    z-index: 99999;
-}
-
-#ordenen {
-	position: relative;
-	list-style: none;
-	line-height: 2em;
-}
-
-#klachtenlijst, 
-#mijnklachtenlijst, 
-#suggestielijst
-{
-    position: relative;
-    height: 5em;
-    line-height: 5em;
-    font-weight: bold;
-    list-style: none;
-}
-
-#klachtenlijst img, 
-#mijnklachtenlijst img,
-#suggestielijst img
-{
-    width: 1.3em;
-    float: right;
-    height: 5em;
-    padding-right: 1.5em;
-}
-
-#klachtenlijst span, 
-#mijnklachtenlijst span, 
-#suggestielijst span
-{
-    font-weight: normal;
-    font-size: 0.7em;
-    color: darkgrey;
-    margin-right: 3%;
-    padding-left: 3%;
-}
-
-.add {
-	background-color: #3C3C3B;
-	width: 4em;
-	height: 4em;
-	border-radius: 3em;
-	position: fixed;
-	margin-left: 75%;
-	top: 85%;
-    box-shadow: 4px 4px 15px black;
-}
-
-.backto {
-    background-color: #E30512;
-	width: 90%;
-	height: 50px;
-	position: fixed;
-	margin-left: 5%;
-    margin-right: 5%;
-	top: 70%;
-    border-radius: 8px;
-}
-
-.add button {
-	color: white;
-	border: 0;
-	background: none;
-	font-size: 4em;
-	line-height: 0.95em;
-}
-
-.backto button {
-    color: white;
-	border: 0;
-	background: none;
-	font-size: 3em;
-    text-align: center;
-}
-
-.backtop {
-    font-size: 25px;
-    line-height: 2em;
-}
-
-.bedankt {
-	font-size: 1.7em;
-	text-align: center;
-	font-weight: normal;
-	padding: 5%;
-}
-
-#grijs {
-	background-color: #E8E8E8;
-}
-
-.grijzeKleur{
-  text-decoration: none;
-  background-color: #E8E8E8;
-}
-
-/* HOMEPAGINA (Jany)*/
-/*
+		@font-face {
+			font-family: Roboto;
+			src: url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/fonts/Regular/Roboto-Regular.woff") format("woff");
+			font-weight: 400;
+			font-style: normal;
+		}
+		
+		@font-face {
+			font-family: 'Roboto Bold';
+			src: url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/fonts/Bold/Roboto-Bold.woff") format("woff");
+			font-weight: 700;
+			font-style: normal;
+		}
+		
+		* {
+			margin: 0;
+			font-family: "Roboto", sans-serif;
+		}
+		/* INDEX (Imane)*/
+		
+		.bodyIndex {
+			background-color: #3C3C3B;
+		}
+		
+		.logoIndex img {
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			margin-top: 35%;
+			margin-bottom: 10%;
+		}
+		
+		.logoIndex {}
+		
+		.languagesIndex {
+			color: white;
+			margin-left: 15%;
+		}
+		
+		.languagesIndex p {
+			text-align: center;
+			padding: 0.5em;
+			margin-bottom: 10px;
+			font-size: 0.80em;
+			text-decoration: none;
+			color: white;
+			width: 25%;
+			float: left;
+		}
+		
+		#nl p {
+			text-align: right;
+		}
+		
+		#en p {
+			text-align: left;
+		}
+		
+		.selected p {
+			color: darkgrey;
+		}
+		
+		.selectIndex {
+			width: 90%;
+			height: 4em;
+			margin-left: 5%;
+			font-size: 0.80em
+		}
+		
+		.inputIndex {
+			width: 90%;
+			height: 50px;
+			margin-left: 5%;
+			color: white;
+			background-color: #E30512;
+			border: none;
+			font-size: 1.2em;
+		}
+		
+		.handleidingIndex p {
+			color: white;
+			font-size: 0.80em;
+			text-decoration: underline;
+			text-align: center;
+			margin-top: 10px;
+		}
+		
+		.handleidingIndex {
+			width: 100%;
+		}
+		/* KLACHTEN+SUGGESTIES+BEDANKT+MIJN INZENDINGEN (Imane)*/
+		
+		.dropKnp {
+			background-color: #E30512;
+			color: white;
+			padding: 15px 10px 10px 0;
+			font-size: 30px;
+			border: none;
+			cursor: pointer;
+			float: right;
+		}
+		
+		.ordeDrop p {
+			width: 83%;
+			box-sizing: border-box;
+			display: block;
+			float: left;
+			margin: 0;
+			padding: 0;
+			padding-left: 4%;
+		}
+		
+		.dropdown {
+			position: relative;
+			display: block;
+		}
+		
+		.contentKlacht {
+			margin-top: 70px;
+			padding: 1em 0 1em 1em;
+			width: 100%;
+			display: none;
+			position: absolute;
+			background-color: #E30512;
+			min-width: 160px;
+			overflow: auto;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		}
+		
+		#ordenen ul li {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		
+		.ordeDrop a:hover {
+			background-color: #E30512
+		}
+		
+		.show {
+			display: block;
+		}
+		
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		.ordeDrop {
+			position: relative;
+			background-color: #E30512;
+			height: 4.3em;
+			line-height: 4.3em;
+			color: white;
+			z-index: 99999;
+		}
+		
+		#ordenen {
+			position: relative;
+			list-style: none;
+			line-height: 2em;
+		}
+		
+		#klachtenlijst,
+		#mijnklachtenlijst,
+		#suggestielijst {
+			position: relative;
+			height: 5em;
+			line-height: 5em;
+			font-weight: bold;
+			list-style: none;
+		}
+		
+		#klachtenlijst img,
+		#mijnklachtenlijst img,
+		#suggestielijst img {
+			width: 1.3em;
+			float: right;
+			height: 5em;
+			padding-right: 1.5em;
+		}
+		
+		#klachtenlijst span,
+		#mijnklachtenlijst span,
+		#suggestielijst span {
+			font-weight: normal;
+			font-size: 0.7em;
+			color: darkgrey;
+			margin-right: 3%;
+			padding-left: 3%;
+		}
+		
+		.add {
+			background-color: #3C3C3B;
+			width: 4em;
+			height: 4em;
+			border-radius: 3em;
+			position: fixed;
+			margin-left: 75%;
+			top: 85%;
+			box-shadow: 4px 4px 15px black;
+		}
+		
+		.backto {
+			background-color: #E30512;
+			width: 90%;
+			height: 50px;
+			position: fixed;
+			margin-left: 5%;
+			margin-right: 5%;
+			top: 70%;
+			border-radius: 8px;
+		}
+		
+		.add button {
+			color: white;
+			border: 0;
+			background: none;
+			font-size: 4em;
+			line-height: 0.95em;
+		}
+		
+		.backto button {
+			color: white;
+			border: 0;
+			background: none;
+			font-size: 3em;
+			text-align: center;
+		}
+		
+		.backtop {
+			font-size: 25px;
+			line-height: 2em;
+		}
+		
+		.bedankt {
+			font-size: 1.7em;
+			text-align: center;
+			font-weight: normal;
+			padding: 5%;
+		}
+		
+		#grijs {
+			background-color: #E8E8E8;
+		}
+		
+		.grijzeKleur {
+			text-decoration: none;
+			background-color: #E8E8E8;
+		}
+		/* HOMEPAGINA (Jany)*/
+		/*
 
 @font-face {
   font-family: Roboto;
@@ -290,139 +267,133 @@ a
   font-weight: 700;
   font-style: normal; }
 */
-
-@media screen and (max-width: 750px){
-  
-  .homepagina{
-    font-family: Roboto;
-    background-color: #CCCCCC ;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .homepagina header{
-    margin-top: 10%;
-    text-align: center;
-  }
-  .homepagina .logoFix{
-    width: 70%;
-  }
- .homepagina .iconDeel{
-    height: 350px;
-    box-sizing: border-box;
-    padding: 9%;
-  }
-  .homepagina .ulIcons{
-    width: 100%;
-    margin:0;
-    padding: 0;
-  }
- .homepagina .ulIcons li{
-    width: 46%;
-    height: 150px;
-    list-style: none;
-    background-color: #3C3C3B;
-    color: white;
-    text-align: center;
-    display: inline;
-    float: left;
-    margin: 2%;
-    font-weight: bolder;
-    letter-spacing: 1px; 
-   font-family: 'Roboto Bold'
-  }
-  
-.homepagina .ulIcons li img{
-    width: 67%;
-    margin-top: 9%;
-  }
-  
-.homepagina .ulIcons .profielLi{
-    background-color: white;
-    color: #3C3C3B;
-    border-radius: 30px 0 0 0;
-  }
-  
-.homepagina .deelButton{
-    text-align: center
-  }
-  .homepagina .bezoekEHB{
-    width: 79%;
-    background-color: #E30512;
-    border: none;
-    height: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-top: 1.5%;
-  }
-  
- .homepagina .lijnenOnderaan{
-    height: 20px;
-    margin-top: 20%;
-    text-align: center;
-  }
-  .homepagina .lijnenOnderaan li{
-    list-style: none;
-    float: left;
-    text-indent: -9999px;
-    margin-bottom: 2%;
-  }
-  .homepagina .lijnenOnderaan ul{
-    margin-top: 10px;
-    padding: 0;
-  }
-  .homepagina .rood{
-    width: 45%;
-    background-color: #E30512;
-  }
-  .homepagina .donkerGrijs{
-    width: 30%;
-    background-color: #3C3C3B;
-  }
-  .homepagina .grijs{
-    background-color: #E8E8E8;
-    width: 25%;
-  }
-  .homepagina footer{
-    height: 60px;
-  }
-  
-}
-
-@media screen and (max-width: 415px){
-.homepagina .lijnenOnderaan{
-    margin-top: 27%;
-  }
-}
-@media screen and (max-width: 412px){
-.homepagina .lijnenOnderaan{
-    margin-top: 10%;
-  }
-  
-@media screen and (max-width: 360px){
-.homepagina .lijnenOnderaan{
-    margin-top: 13%;
-  }
-  }
-  @media screen and (max-width: 321px){
-.homepagina .lijnenOnderaan{
-    margin-top: 10%;
-  }
-    .homepagina .ulIcons li{
-    width: 46%;
-    height: 130px;
-   
-  }
-  .homepagina  .iconDeel{
-    height: 302px;
-    box-sizing: border-box;
-    padding: 6%;
-  } 
-}
-
-/* ACCOUNT (Jany)*/
-/*
+		
+		@media screen and (max-width: 750px) {
+			.homepagina {
+				font-family: Roboto;
+				background-color: #CCCCCC;
+				margin: 0;
+				padding: 0;
+			}
+			.homepagina header {
+				margin-top: 10%;
+				text-align: center;
+			}
+			.homepagina .logoFix {
+				width: 70%;
+			}
+			.homepagina .iconDeel {
+				height: 350px;
+				box-sizing: border-box;
+				padding: 9%;
+			}
+			.homepagina .ulIcons {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.homepagina .ulIcons li {
+				width: 46%;
+				height: 150px;
+				list-style: none;
+				background-color: #3C3C3B;
+				color: white;
+				text-align: center;
+				display: inline;
+				float: left;
+				margin: 2%;
+				font-weight: bolder;
+				letter-spacing: 1px;
+				font-family: 'Roboto Bold'
+			}
+			.homepagina .ulIcons li img {
+				width: 67%;
+				margin-top: 9%;
+			}
+			.homepagina .ulIcons .profielLi {
+				background-color: white;
+				color: #3C3C3B;
+				border-radius: 30px 0 0 0;
+			}
+			.homepagina .deelButton {
+				text-align: center
+			}
+			.homepagina .bezoekEHB {
+				width: 79%;
+				background-color: #E30512;
+				border: none;
+				height: 50px;
+				color: white;
+				font-weight: bold;
+				font-size: 1.2em;
+				margin-top: 1.5%;
+			}
+			.homepagina .lijnenOnderaan {
+				height: 20px;
+				margin-top: 20%;
+				text-align: center;
+			}
+			.homepagina .lijnenOnderaan li {
+				list-style: none;
+				float: left;
+				text-indent: -9999px;
+				margin-bottom: 2%;
+			}
+			.homepagina .lijnenOnderaan ul {
+				margin-top: 10px;
+				padding: 0;
+			}
+			.homepagina .rood {
+				width: 45%;
+				background-color: #E30512;
+			}
+			.homepagina .donkerGrijs {
+				width: 30%;
+				background-color: #3C3C3B;
+			}
+			.homepagina .grijs {
+				background-color: #E8E8E8;
+				width: 25%;
+			}
+			.homepagina footer {
+				height: 60px;
+			}
+		}
+		
+		@media screen and (max-width: 415px) {
+			.homepagina .lijnenOnderaan {
+				margin-top: 27%;
+			}
+		}
+		
+		@media screen and (max-width: 412px) {
+			.homepagina .lijnenOnderaan {
+				margin-top: 10%;
+			}
+		}
+		
+		@media screen and (max-width: 360px) {
+			.homepagina .lijnenOnderaan {
+				margin-top: 13%;
+			}
+		}
+		
+		@media screen and (max-width: 321px) {
+			.homepagina .lijnenOnderaan {
+				margin-top: 10%;
+			}
+			.homepagina .ulIcons li {
+				width: 46%;
+				height: 130px;
+			}
+			.homepagina .iconDeel {
+				height: 302px;
+				box-sizing: border-box;
+				padding: 6%;
+			}
+		}
+		/* ACCOUNT (Jany)*/
+		/*
 
 @font-face {
   font-family: Roboto;
@@ -438,109 +409,175 @@ a
   font-weight: 700;
   font-style: normal; }
 */
- 
-body{
-  font-family: roboto;
-}
-
-.accountPagina .detailAccount{
-  height: 400px;
-} 
-.accountPagina .detailAccount a{
-  text-decoration: none;
-  color: black;
-}
- .accountPagina .lijnenOnderaan{
-    height: 20px;
-    margin-top: 28%;
-    text-align: center;
-  }
-  .accountPagina .lijnenOnderaan li{
-    list-style: none;
-    float: left;
-    text-indent: -9999px;
-    margin-bottom: 2%;
-  }
-  .accountPagina .lijnenOnderaan ul{
-    margin-top: 10px;
-    padding: 0;
-  }
-  .accountPagina .rood{
-    width: 45%;
-    background-color: #E30512;
-  }
- .accountPagina  .donkerGrijs{
-    width: 30%;
-    background-color: #3C3C3B;
-  }
-  .accountPagina .grijs{
-    background-color: #E8E8E8;
-    width: 25%;
-  }
- .accountPagina footer{
-    height: 60px;
-  }
-
-.accountPagina .detailAccount li, .detailVeranderCampus li{
-  
-  height: 40px;
-  border-bottom: 2px solid grey;
-  list-style: none;
-}
-
-.accountPagina .detailAccount li p, .detailVeranderCampus li p{
-  margin: 5% 0 5% 3%;
-}
-.accountPagina .taal ,.campus{
-  width: 60%;
-  float: left;
-}
-
-.accountPagina .algemeneInstellingenVerander select{
-  float: right;
-  border: 2px solid grey;
-  width: 30%;
-  float: left;
-  margin-top: 5%;
-}
-.accountPagina .algemeneInstellingenVerander , .test{
-  padding-bottom: 5%;
-}
-
-#pijl{
-  width: 2em;
-	padding-left: 3%;
-}
-
-.accountPagina .detailVeranderCampus li p{
-  width: 60%;
-}
-
-.accountPagina .check{
-  display: none;
-  margin-top: 5%;
-}
-
-.accountPagina .checkKaai{
-  display: block;
-}
-
-.accountPagina .test p a{
-  text-decoration: none;
-  color: black;
-}
-  
-/* FORMULIER KLACHT */
-
-/* FORMULIER SUGGESTIE */
-
-/* KLACHTENMELDINGEN */
-
-/* NAVIGATIE */
-
-/* NOODGEVALLEN */
-         
-/* AXEL */
-         
-/* JANY */
-      
+		
+		body {
+			font-family: roboto;
+		}
+		
+		.accountPagina .detailAccount {
+			height: 400px;
+		}
+		
+		.accountPagina .detailAccount a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		.accountPagina .lijnenOnderaan {
+			height: 20px;
+			margin-top: 28%;
+			text-align: center;
+		}
+		
+		.accountPagina .lijnenOnderaan li {
+			list-style: none;
+			float: left;
+			text-indent: -9999px;
+			margin-bottom: 2%;
+		}
+		
+		.accountPagina .lijnenOnderaan ul {
+			margin-top: 10px;
+			padding: 0;
+		}
+		
+		.accountPagina .rood {
+			width: 45%;
+			background-color: #E30512;
+		}
+		
+		.accountPagina .donkerGrijs {
+			width: 30%;
+			background-color: #3C3C3B;
+		}
+		
+		.accountPagina .grijs {
+			background-color: #E8E8E8;
+			width: 25%;
+		}
+		
+		.accountPagina footer {
+			height: 60px;
+		}
+		
+		.accountPagina .detailAccount li,
+		.detailVeranderCampus li {
+			height: 40px;
+			border-bottom: 2px solid grey;
+			list-style: none;
+		}
+		
+		.accountPagina .detailAccount li p,
+		.detailVeranderCampus li p {
+			margin: 5% 0 5% 3%;
+		}
+		
+		.accountPagina .taal,
+		.campus {
+			width: 60%;
+			float: left;
+		}
+		
+		.accountPagina .algemeneInstellingenVerander select {
+			float: right;
+			border: 2px solid grey;
+			width: 30%;
+			float: left;
+			margin-top: 5%;
+		}
+		
+		.accountPagina .algemeneInstellingenVerander,
+		.test {
+			padding-bottom: 5%;
+		}
+		
+		#pijl {
+			width: 2em;
+			padding-left: 3%;
+		}
+		
+		.accountPagina .detailVeranderCampus li p {
+			width: 60%;
+		}
+		
+		.accountPagina .check {
+			display: none;
+			margin-top: 5%;
+		}
+		
+		.accountPagina .checkKaai {
+			display: block;
+		}
+		
+		.accountPagina .test p a {
+			text-decoration: none;
+			color: black;
+		}
+		/* Beschrijving klachten en suggesties */
+		
+		#klachtenmeldingCSS #contentDiv {
+			margin: 5% 10%;
+		}
+		
+		#klachtenmeldingCSS h1,
+		#klachtenmeldingCSS h2 {
+			margin-bottom: 3%;
+		}
+		
+		#klachtenmeldingCSS h2 {
+			font-size: 1.1em;
+			font-weight: 400;
+		}
+		
+		#klachtenmeldingCSS h3 {
+			font-size: 1em;
+			color: #bebebe;
+			margin-bottom: 10%;
+			font-weight: 400;
+		}
+		
+		#klachtenmeldingCSS #pbeschrijving,
+		#klachtenmeldingCSS #foto {
+			margin-bottom: 10%;
+		}
+		
+		#klachtenmeldingCSS .buttonTerug {
+			background-color: #E30512;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 0;
+			border-radius: 8px;
+			clear: both;
+			margin-bottom: 5%;
+		}
+		
+		#klachtenmeldingCSS #foto {
+			width: 80%;
+		}
+		
+		#klachtenmeldingCSS #circle {
+			width: 1em;
+			float: left;
+			margin-left: 1em;
+		}
+		
+		#klachtenmeldingCSS #pstatus {
+			float: left;
+			margin-bottom: 5%;
+		}
+		
+		#klachtenmeldingCSS button a {
+			color: white;
+			text-decoration: none;
+		}
+		/* FORMULIER KLACHT */
+		/* FORMULIER SUGGESTIE */
+		/* KLACHTENMELDINGEN */
+		/* NOODGEVALLEN */
+		/* AXEL */
+		/* JANY */
