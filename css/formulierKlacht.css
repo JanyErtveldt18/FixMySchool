@@ -99,7 +99,7 @@ form{
 button{
     background-color: rgb(227,6,19);
     padding: 15px 32px;
-    margin-right: 90px;
+   
     font-size: 1.1em;
     border-radius: 8px;
     color: white;
@@ -115,18 +115,27 @@ select{
     border: none;
 }
 .fotoUploaden{
+   margin-left: 90px;
+  
     display: inline;
 }
 .fotoUploaden input{
+  
     display: none;
 }
 .fotoToevoegen{
+  
     position: relative;
 }
 #beschrijvingTekst{
   max-width: 96%;
 }
-
+.linkVerzenden{
+  text-decoration: none;
+  color: white;
+  padding: 15px 0px;
+  cursor: pointer;
+}
 @media screen and (max-width: 373px){
     #gebouw, #lokalen{
     width: 46%;
