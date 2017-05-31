@@ -25,7 +25,7 @@
     "naam": "klachten",
     "img": "../img/klachten.png",
     "titel": "klachten",
-    "beschrijving":"Overzicht klachten"
+    "beschrijving":"Overzicht klachten, de nog niet behandelde klachten in het rood, de klachten in behandeling zijn in oranje en de behandelde in het groen"
         },{
     "id": "5",
     "naam": "klachten Plus teken",
@@ -38,7 +38,7 @@
     "naam": "klacht Formulier",
     "img": "../img/Klacht_toevoegen.png",
     "titel": "klacht toevoegen",
-    "beschrijving":"Druk op het plusteken om een nieuwe klacht toe te voegen"
+    "beschrijving":"Vul hier uw klacht in en druk vervolgens op verzenden"
         },
          {
     "id": "7",
