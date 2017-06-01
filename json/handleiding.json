@@ -3,14 +3,14 @@
 {
     "id": "1",
     "naam": "Klachtenmelding",
-    "img": "../img/login.png",
+    "img": "../img/login.PNG",
     "titel": "Klachtenmelding",
     "beschrijving":"Welkom op onze login pagina, <br> gelieve eerst uw campus te kiezen en vervolgens in te loggen"
 },
         {
     "id": "2",
     "naam": "Homepagina",
-    "img": "../img/homepagina.png",
+    "img": "../img/homepagina.PNG",
     "titel": "Homepagina",
     "beschrijving":"De homepagina geeft u de mogelijkheid om een klacht, een suggestie, de noodgevalpagina en om uw eigen account te raadplegen"
         },  {
@@ -23,27 +23,27 @@
         {
     "id": "4",
     "naam": "klachten",
-    "img": "../img/klachten.png",
+    "img": "../img/klachten.PNG",
     "titel": "klachten",
-    "beschrijving":"Overzicht klachten, de nog niet behandelde klachten in het rood, de klachten in behandeling zijn in oranje en de behandelde in het groen"
+    "beschrijving":"Overzicht klachten; De nog niet behandelde klachten zijn in het rood, de klachten in behandeling zijn in het oranje en de behandelde klachten in het groen"
         },{
     "id": "5",
     "naam": "klachten Plus teken",
-    "img": "../img/klachten_plus.png",
+    "img": "../img/klachten_plus.PNG",
     "titel": "Plus teken",
     "beschrijving":"Druk op het plusteken om een nieuwe klacht toe te voegen"
         },
         {
     "id": "6",
     "naam": "klacht Formulier",
-    "img": "../img/Klacht_toevoegen.png",
+    "img": "../img/Klacht_toevoegen.PNG",
     "titel": "klacht toevoegen",
     "beschrijving":"Vul hier uw klacht in en druk vervolgens op verzenden"
         },
          {
     "id": "7",
     "naam": "Bedank pagina",
-    "img": "../img/Klacht_voltooid.png",
+    "img": "../img/Klacht_voltooid.PNG",
     "titel": "Bedankt",
     "beschrijving":"Eens u een klacht heeft toegevoegd, wordt u doorgestuurd naar de bedanktpagina"
         }
