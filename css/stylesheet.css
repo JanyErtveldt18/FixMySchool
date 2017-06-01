@@ -1004,7 +1004,7 @@ body {
 @media screen and (max-width: 373px) {
     .klachtFormulier #gebouw,
     .klachtFormulier #lokalen {
-        width: 46%;
+        width: 44.5%;
     }
     .klachtFormulier select,
     .klachtFormulier input,
@@ -1012,7 +1012,11 @@ body {
         font-size: 0.9em;
     }
     .klachtFormulier button {
-        margin-right: 40px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .klachtFormulier .fotoUploaden{
+        margin-left: 30px;
     }
 }
 
